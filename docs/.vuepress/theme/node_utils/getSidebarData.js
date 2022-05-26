@@ -13,10 +13,13 @@ let catalogueData = {}; // 目录页数据
  */
 function createSidebarData(sourceDir, collapsable) {
     const sidebarData = {};
+
+    const selfSidebarData = {title: "", collapsable: false, children: []}
+
     const tocs = readTocs(sourceDir);
     tocs.forEach(toc => { // toc是每个目录的绝对路径
 
-        log("当前toc："+toc)
+        log("当前toc：" + toc)
 
         if (toc.substr(-6) === '_posts') { // 碎片化文章
 
@@ -27,20 +30,126 @@ function createSidebarData(sourceDir, collapsable) {
         } else {
             const sidebarObj = mapTocToSidebar(toc, collapsable);
 
-            log("当前sidebarObj："+sidebarObj)
-
-
+            log("当前sidebarObj：", sidebarObj)
 
             if (!sidebarObj.sidebar.length) {
                 log(chalk.yellow(`warning: 该目录 "${toc}" 内部没有任何文件或文件序号出错，将忽略生成对应侧边栏`))
                 return;
             }
+            // F:\笔记\HelloCoderBlog\docs\articles\02.PureJavaCoderRoad
+            var basename = path.basename(toc);//02.PureJavaCoderRoad
+
+            const fileNameArr = basename.split('.')
+
+            var title = fileNameArr[fileNameArr.length - 1]
+
+            log("title:", title)
+
+            // 重新构造一层
+            if (title === "PureJavaCoderRoad" || title === "LearnJavaToFindAJob") {
+                sidebarData[`/${path.basename(toc)}/`] =
+                    [
+
+                        {
+                            title: "《" + title + "》",
+                            children: sidebarObj.sidebar,
+                            catalogue : sidebarObj.catalogueData
+                        },
+
+                    ]
+
+                return sidebarData;
+
+
+            }
+
             sidebarData[`/${path.basename(toc)}/`] = sidebarObj.sidebar
             sidebarData.catalogue = sidebarObj.catalogueData
+
         }
     })
 
+    selfSibar = {
+
+        "/02.PureJavaCoderRoad/": [
+
+            {
+                title: '《PureJavaCoderRoad》',
+                collapsable: false,
+                children: [
+                    {
+                        title: 'Java基础',
+                        collapsable: false,
+                        children: [
+                            {
+                                title: 'Java入门',
+                                collapsable: false,
+                                children: [
+                                    [
+                                        '01.Java基础/01.Java入门/01.IDEA快捷键.md',
+                                        'IDEA快捷键',
+                                        '/pages/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE'
+                                    ],
+                                    [
+                                        '01.Java基础/01.Java入门/02.JavaIDE介绍.md',
+                                        'JavaIDE介绍',
+                                        '/pages/JavaIDE%E4%BB%8B%E7%BB%8D'
+                                    ],
+                                    [
+                                        '01.Java基础/01.Java入门/03.Java的就业和发展.md',
+                                        'Java的就业和发展',
+                                        '/pages/Java%E7%9A%84%E5%B0%B1%E4%B8%9A%E5%92%8C%E5%8F%91%E5%B1%95'
+                                    ],
+                                    [
+                                        '01.Java基础/01.Java入门/04.Java介绍.md',
+                                        'Java介绍',
+                                        '/pages/Java%E4%BB%8B%E7%BB%8D'
+                                    ],
+                                    [
+                                        '01.Java基础/01.Java入门/05.安装Java运行环境.md',
+                                        '安装Java运行环境',
+                                        '/pages/%E5%AE%89%E8%A3%85Java%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83'
+                                    ],
+                                    [
+                                        '01.Java基础/01.Java入门/使用IDEA编写第一个Java程序.md',
+                                        '使用IDEA编写第一个Java程序',
+                                        '/pages/%E4%BD%BF%E7%94%A8IDEA%E7%BC%96%E5%86%99%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F'
+                                    ],
+                                    [
+                                        '01.Java基础/01.Java入门/运行第一个Java程序.md',
+                                        '运行第一个Java程序',
+                                        '/pages/%E8%BF%90%E8%A1%8C%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F'
+                                    ]
+                                ]
+                            },
+                            {
+                                title: 'Java基础',
+                                collapsable: false,
+                                children: []
+                            }
+                            , {
+                                title: 'Java流程控制',
+                                collapsable: false,
+                                children: []
+                            }
+
+
+                        ]
+                    }
+                ]
+
+            },
+
+            {}
+
+            // { title: 'Java新特性', collapsable: false, children: [ [Object] ] }
+        ]
+
+
+    }
+    // return selfSibar
     return sidebarData
+
 }
 
 module.exports = createSidebarData;
@@ -129,68 +238,53 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
 
         const fileNameArr = filename.split('.')
 
-
-
-        log("fileNameArr:"+fileNameArr)
-
+        // log("fileNameArr:"+fileNameArr)
         const isDir = stat.isDirectory()
-        let order = '', title = '', type = '';
+        let order = 0, title = '', type = '';
 
-
-        //没有序号的情况下
-        if (fileNameArr.length === 2) {
-            //md文件
-            if (fileNameArr[1] === 'md') {
-                order = 999;
-                title = fileNameArr[0];
-                type = 'md';
-            }
-            //否则就是目录了
-            else {
-                order = fileNameArr[0]
-                title = fileNameArr[1]
-            }
+        if (fileNameArr.length >= 2) {
+            title = fileNameArr[fileNameArr.length - 1]
+            order = fileNameArr[0]
+        } else {
+            title = fileNameArr[0];
+            order = 999;
         }
-        else if (fileNameArr.length===1) {
-            title=fileNameArr[0]
-        }
-
-        else {
-            const firstDotIndex = filename.indexOf('.');
-            const lastDotIndex = filename.lastIndexOf('.');
-
-            order = filename.substring(0, firstDotIndex);
-            type = filename.substring(lastDotIndex + 1);
-            if (isDir) {
-                title = filename.substring(firstDotIndex + 1);
-            } else {
-                title = filename.substring(firstDotIndex + 1, lastDotIndex);
-            }
-        }
-
         order = parseInt(order, 10);
         if (isNaN(order) || order < 0) {
             // log(chalk.yellow(`warning: 该文件 "${file}" 序号出错，请填写正确的序号`))
             // return;
             order = 999;
         }
-        if (sidebar[order]) { // 判断序号是否已经存在
-            // log(chalk.yellow(`warning: 该文件 "${file}" 的序号在同一级别中重复出现，将会被覆盖`))
-            //改成不覆盖
-            order++;
+        while (true) {
+            if (sidebar[order]) {
+                order += 1
+            } else {
+                break;
+            }
         }
-        if (isDir) { // 是文件夹目录
+
+
+        if (isDir) {
+
+            log("当前目录：", filename)
+
 
             if (filename === 'picture') {
                 return;
             }
+
 
             sidebar[order] = {
                 title,
                 collapsable, // 是否可折叠，默认true
                 children: mapTocToSidebar(file, collapsable, prefix + filename + '/').sidebar // 子栏路径添加前缀
             }
+
         } else {
+
+            type = fileNameArr[fileNameArr.length - 1];
+
+
             // 是文件
             if (type !== 'md') {
                 log(chalk.yellow(`warning: 该文件 "${file}" ，格式："${type}",非.md格式文件，不支持该文件类型`))
@@ -211,12 +305,15 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
             }
             const item = [prefix + filename, title, permalink]
             if (titleTag) item.push(titleTag)
-            sidebar[order] = item;  // [<路径>, <标题>, <永久链接>, <?标题标签>]
 
+            sidebar[order] = item;  // [<路径>, <标题>, <永久链接>, <?标题标签>]
         }
+
     })
 
+
     sidebar = sidebar.filter(item => item !== null && item !== undefined);
+
 
     // log("sidebar:"+sidebar);
 

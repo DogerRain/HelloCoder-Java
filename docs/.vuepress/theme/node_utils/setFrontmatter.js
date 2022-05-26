@@ -67,6 +67,7 @@ tags:
       const fmData = `---
 title: ${file.name}
 date: ${dateStr}
+lock: false
 permalink: ${link}${file.filePath.indexOf('_posts') > -1 ? os.EOL + 'sidebar: auto' : ''}${cateStr}${tagsStr}
 ${extendFrontmatterStr}---`;
 
@@ -94,6 +95,11 @@ ${extendFrontmatterStr}---`;
         matterData.permalink = getPermalink();
         hasChange = true;
       }
+
+        if (!matterData.hasOwnProperty('lock')) { // lock
+            matterData.lock = 'false';
+            hasChange = true;
+        }
 
       if (file.filePath.indexOf('_posts') > -1 && !matterData.hasOwnProperty('sidebar')) { // auto侧边栏，_posts文件夹特有
         matterData.sidebar = "auto";

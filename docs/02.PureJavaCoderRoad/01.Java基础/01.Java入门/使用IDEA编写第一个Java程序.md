@@ -2,14 +2,13 @@
 title: 使用IDEA编写第一个Java程序
 date: 2022-05-24 17:44:32
 permalink: /pages/%E4%BD%BF%E7%94%A8IDEA%E7%BC%96%E5%86%99%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F
-categories:
+categories: 
   - PureJavaCoderRoad
   - Java基础
   - Java入门
-      
-      
-tags:
-  - 
+tags: 
+  - null
+lock: false
 ---
 废话少说，上号，打开你的IDEA
 

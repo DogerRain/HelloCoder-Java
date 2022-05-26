@@ -2,13 +2,12 @@
 title: Java8之Stream
 date: 2022-05-24 17:44:31
 permalink: /pages/Java8%E4%B9%8BStream
-categories:
+categories: 
   - PureJavaCoderRoad
   - Java新特性
-      
-      
-tags:
-  - 
+tags: 
+  - null
+lock: false
 ---
 ## 1、Streams是什么
 

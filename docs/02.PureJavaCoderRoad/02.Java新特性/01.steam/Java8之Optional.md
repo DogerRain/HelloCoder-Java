@@ -2,13 +2,12 @@
 title: Java8之Optional
 date: 2022-05-24 17:44:31
 permalink: /pages/Java8%E4%B9%8BOptional
-categories:
+categories: 
   - PureJavaCoderRoad
   - Java新特性
-      
-      
-tags:
-  - 
+tags: 
+  - null
+lock: false
 ---
 > 这是一篇译文
 > 原文地址：https://dzone.com/articles/understanding-accepting-and-leveraging-optional-in
