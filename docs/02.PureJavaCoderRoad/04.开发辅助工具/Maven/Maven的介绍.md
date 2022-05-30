@@ -19,7 +19,7 @@ Maven的安装需要依赖jdk，所以本地需要先安装jdk。
 
 安装Maven之后，打开项目的`setting.xml`,可以配置本地仓库地址（默认在C盘），本地仓库地址就是你需要用到的jar的储存位置：
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526234043294.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526234043294.png)
 
 然后配置环境变量：
 
@@ -28,7 +28,7 @@ Maven的安装需要依赖jdk，所以本地需要先安装jdk。
 
 window系统快捷键 Ctrl+R 输入cmd  ，回车 ，输入` mvn -v`, 输出以下即安装成功：
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526231731305.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526231731305.png)
 
 安装成功后就可以在IDEA中配置Maven了，之后使用就可以使用Maven进行项目开发和打包了。
 
@@ -40,7 +40,7 @@ window系统快捷键 Ctrl+R 输入cmd  ，回车 ，输入` mvn -v`, 输出以�
 
 我们平时使用的各种jar，例如连接MySQL，需要下载`mysql-connector-java-5.1.5-bin.jar`,使用spring框架，需要下载下面这堆jar
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526230328308.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526230328308.png)
 
 下载了jar之后，你还需要手动添加进项目，这样子你的项目就可以使用jdbc、spring的API了，这样做太麻烦了，如果你使用Maven，就可以省去以上的工作，你只需要在项目的pom.xml文件引入依赖即可：
 
@@ -73,11 +73,11 @@ maven的中央仓库地址：[https://mvnrepository.com/](https://mvnrepository.
 
 打开IDEA，我们可以看到这里有很多maven的命令：
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526233020062.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526233020062.png)
 
 你也可以自定义maven命令，进入项目的目录，输入`mvn clean package ` ，我们可以看到项目的输出目录就生成了jar
 
-![ ](https://blog-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526233320788.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526233320788.png)
 
    这个jar就可以直接使用`java -jar MeiziTu-0.0.1-SNAPSHOT.jar` 命令运行了。
 
@@ -85,11 +85,11 @@ maven的中央仓库地址：[https://mvnrepository.com/](https://mvnrepository.
 
 有时候我们一个大项目，存在很多子项目，就可以使用maven进行拆分，让不同的子项目负责不同的功能模块。
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526232738803.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526232738803.png)
 
 只需要在父项目的`pom.xml`文件加入配置即可：
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/image-20200526233705682.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/image-20200526233705682.png)
 
 
 
@@ -111,7 +111,7 @@ maven的中央仓库地址：[https://mvnrepository.com/](https://mvnrepository.
 
 流程如下：
 
-![ ](https://images-1253198264.cos.ap-guangzhou.myqcloud.com/流程.png)
+![ ](https://fastly.jsdelivr.net/gh/DogerRain/image@main/img-202205/%E6%B5%81%E7%A8%8B.png)
 
 **私有仓库**：存放我们需要的jar、我们在`pom.jar`可以引用，私有仓库找不到会去中央仓库下载。
 
@@ -358,11 +358,11 @@ Maven的最近依赖策略：如果一个项目依赖相同的groupId、artifact
 
 **想法1：要使用哪个版本，我们是清楚的，那么能不能不管如何依赖传递，都可以进行版本锁定呢？**
 
-使用<dependencyManagement> 这种主要用于子模块的版本一致性中
+使用 `<dependencyManagement>` 这种主要用于子模块的版本一致性中
 
 **想法2：在依赖传递中，能不能去掉我们不想依赖的？**
 
-使用<exclusions>在实际中我们可以在IDEA中直接利用插件帮助我们生成
+使用 `<exclusions>` 在实际中我们可以在IDEA中直接利用插件帮助我们生成
 
 如：
 
@@ -391,7 +391,7 @@ Maven的最近依赖策略：如果一个项目依赖相同的groupId、artifact
 
 **想法3：既然是最近依赖策略，如果我不想使用默认的版本怎么办？**
 
-可以使用<dependency>指定你需要的版本
+可以使用`<dependency>`指定你需要的版本
 
 
 

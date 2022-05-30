@@ -1,8 +1,8 @@
 <template>
-    <div class="right-menu-wrapper" v-if="notlock()">
+    <div class="right-menu-wrapper">
         <div class="right-menu-margin">
             <div class="right-menu-title">目录</div>
-            <div class="right-menu-content" id="right-menu-content">
+            <div class="right-menu-content" id="right-menu-content" v-if="">
                 <div
                         :class="[
             'right-menu-item',
@@ -32,11 +32,16 @@
         mounted() {
             this.getHeadersData()
             this.getHashText()
+
+
+            this.Lock()
+
         },
         watch: {
             $route() {
                 this.headers = this.$page.headers
                 this.getHashText()
+                this.Lock()
             }
         },
         methods: {
@@ -47,27 +52,42 @@
                 this.hashText = decodeURIComponent(window.location.hash.slice(1))
             },
 
-            notlock() {
-                let islock =  this.ifLock();
+            Lock() {
+                let islock =  this.NeedLock();
+                let clone2 = this.articleObj();
                 if (islock===true){
-                    let clone2= $('.right-menu-content').clone();
                     clone2.css('pointer-events','none');
+                    // document.getElementById("right-menu-content").style="pointer-events:none";
+                }else {
+                    clone2.css('pointer-events','auto');
                 }
                 return true;
 
             },
 
-            ifLock(){
-                let res = this.getCookie("_unlock");
-                let islock = this.$page.frontmatter.lock;
+            /**
+             * @return {boolean}
+             */
+            NeedLock(){
+                let cookie = this.getCookie("_unlock");
 
-                if (islock !== 'need') {
-                    return true
+                let needLock = this.$page.frontmatter.lock;
+
+                //文章加锁
+                if (needLock === 'need' ){
+
+                    if (cookie === 'success' ) {
+                        return false
+                    }else {
+                        return true;
+                    }
+
+                }else {
+                    return false;
                 }
-                if ( islock === 'need' && 'success' === res ) {
-                    return true;
-                }
-                return false;
+
+
+
             },
 
             getCookie: function (name) {
@@ -76,6 +96,13 @@
                 if (parts.length === 2)
                     return parts.pop().split(";").shift();
             },
+
+            articleObj: function () {
+                let $article = $('.right-menu-content');
+                return  $article;
+
+            },
+
         }
     }
 </script>

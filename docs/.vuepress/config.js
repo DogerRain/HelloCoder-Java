@@ -97,7 +97,7 @@ module.exports = {
         searchMaxSuggestions: 8, // 搜索结果显示最大数
         lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
-        selfPassword: 'sweetheart',
+        selfPassword: 'Coder',
 
         docsDir: 'docs', // 编辑的文件夹
         // editLinks: true, // 编辑链接

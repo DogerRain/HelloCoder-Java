@@ -86,37 +86,37 @@ function createSidebarData(sourceDir, collapsable) {
                                 collapsable: false,
                                 children: [
                                     [
-                                        '01.Java基础/01.Java入门/01.IDEA快捷键.md',
+                                        '01.Java基础/01.Java入门/06.IDEA快捷键.md',
                                         'IDEA快捷键',
                                         '/pages/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE'
                                     ],
                                     [
-                                        '01.Java基础/01.Java入门/02.JavaIDE介绍.md',
+                                        '01.Java基础/01.Java入门/04.JavaIDE介绍.md',
                                         'JavaIDE介绍',
                                         '/pages/JavaIDE%E4%BB%8B%E7%BB%8D'
                                     ],
                                     [
-                                        '01.Java基础/01.Java入门/03.Java的就业和发展.md',
+                                        '01.Java基础/01.Java入门/Java的就业和发展.md',
                                         'Java的就业和发展',
                                         '/pages/Java%E7%9A%84%E5%B0%B1%E4%B8%9A%E5%92%8C%E5%8F%91%E5%B1%95'
                                     ],
                                     [
-                                        '01.Java基础/01.Java入门/04.Java介绍.md',
+                                        '01.Java基础/01.Java入门/01.Java介绍.md',
                                         'Java介绍',
                                         '/pages/Java%E4%BB%8B%E7%BB%8D'
                                     ],
                                     [
-                                        '01.Java基础/01.Java入门/05.安装Java运行环境.md',
+                                        '01.Java基础/01.Java入门/02.安装Java运行环境.md',
                                         '安装Java运行环境',
                                         '/pages/%E5%AE%89%E8%A3%85Java%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83'
                                     ],
                                     [
-                                        '01.Java基础/01.Java入门/使用IDEA编写第一个Java程序.md',
+                                        '01.Java基础/01.Java入门/05.使用IDEA编写第一个Java程序.md',
                                         '使用IDEA编写第一个Java程序',
                                         '/pages/%E4%BD%BF%E7%94%A8IDEA%E7%BC%96%E5%86%99%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F'
                                     ],
                                     [
-                                        '01.Java基础/01.Java入门/运行第一个Java程序.md',
+                                        '01.Java基础/01.Java入门/03.运行第一个Java程序.md',
                                         '运行第一个Java程序',
                                         '/pages/%E8%BF%90%E8%A1%8C%E7%AC%AC%E4%B8%80%E4%B8%AAJava%E7%A8%8B%E5%BA%8F'
                                     ]

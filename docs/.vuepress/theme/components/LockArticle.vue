@@ -199,7 +199,7 @@
                                 return
                             }
 
-                            if (value === t.slef_password()) {
+                            if (value.toUpperCase() === t.slef_password().toUpperCase()) {
                                 t._unlock(articleObj);
                                 t.setCookie("_unlock", "success", 1);
                             } else {
@@ -228,6 +228,10 @@
                 $('#right-menu-content').css('pointer-events','auto');
 
                 $('#read-more-wrap').remove();
+
+                //目录变成可用
+                $article.css('pointer-events','auto');
+
 
             },
             getToken: async function () {

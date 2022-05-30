@@ -41,21 +41,32 @@ function setFrontmatter(sourceDir, themeConfig) {
         categoryText
       );
 
-      let cateLabelStr = '';
+
+      let lock = false;
+
       categories.forEach(item => {
-        cateLabelStr += os.EOL + '  - ' + item
+        cateLabelStr += os.EOL + '  - ' + item;
+
+        if (item==='Java线程'  ){
+          lock = true
+        }
+
       });
+
 
       let cateStr = '';
       if (!(isCategory === false)) {
         cateStr = os.EOL + 'categories:' + cateLabelStr
       };
 
-
-
       let link = PREFIX +file.name;
 
       link = encodeURI(link);
+
+
+
+      let cateLabelStr = '';
+
 
       // 注意下面这些反引号字符串的格式会映射到文件
       const tagsStr = isTag === false ? '' : `
@@ -67,7 +78,7 @@ tags:
       const fmData = `---
 title: ${file.name}
 date: ${dateStr}
-lock: false
+lock: ${lock}
 permalink: ${link}${file.filePath.indexOf('_posts') > -1 ? os.EOL + 'sidebar: auto' : ''}${cateStr}${tagsStr}
 ${extendFrontmatterStr}---`;
 
