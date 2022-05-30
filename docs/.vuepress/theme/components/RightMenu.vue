@@ -1,51 +1,83 @@
 <template>
-  <div class="right-menu-wrapper">
-    <div class="right-menu-margin">
-      <div class="right-menu-title">目录</div>
-      <div class="right-menu-content">
-        <div
-          :class="[
+    <div class="right-menu-wrapper" v-if="notlock()">
+        <div class="right-menu-margin">
+            <div class="right-menu-title">目录</div>
+            <div class="right-menu-content" id="right-menu-content">
+                <div
+                        :class="[
             'right-menu-item',
             'level' + item.level,
             { active: item.slug === hashText }
           ]"
-          v-for="(item, i) in headers"
-          :key="i"
-        >
-          <a :href="'#' + item.slug">{{ item.title }}</a>
+                        v-for="(item, i) in headers"
+                        :key="i"
+                >
+                    <a :href="'#' + item.slug">{{ item.title }}</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      headers: [],
-      hashText: ''
+    export default {
+        data() {
+            return {
+                headers: [],
+                hashText: ''
+            }
+        },
+
+
+        mounted() {
+            this.getHeadersData()
+            this.getHashText()
+        },
+        watch: {
+            $route() {
+                this.headers = this.$page.headers
+                this.getHashText()
+            }
+        },
+        methods: {
+            getHeadersData() {
+                this.headers = this.$page.headers
+            },
+            getHashText() {
+                this.hashText = decodeURIComponent(window.location.hash.slice(1))
+            },
+
+            notlock() {
+                let islock =  this.ifLock();
+                if (islock===true){
+                    let clone2= $('.right-menu-content').clone();
+                    clone2.css('pointer-events','none');
+                }
+                return true;
+
+            },
+
+            ifLock(){
+                let res = this.getCookie("_unlock");
+                let islock = this.$page.frontmatter.lock;
+
+                if (islock !== 'need') {
+                    return true
+                }
+                if ( islock === 'need' && 'success' === res ) {
+                    return true;
+                }
+                return false;
+            },
+
+            getCookie: function (name) {
+                let value = "; " + document.cookie;
+                let parts = value.split("; " + name + "=");
+                if (parts.length === 2)
+                    return parts.pop().split(";").shift();
+            },
+        }
     }
-  },
-  mounted() {
-    this.getHeadersData()
-    this.getHashText()
-  },
-  watch: {
-    $route() {
-      this.headers = this.$page.headers
-      this.getHashText()
-    }
-  },
-  methods: {
-    getHeadersData() {
-      this.headers = this.$page.headers
-    },
-    getHashText() {
-      this.hashText = decodeURIComponent(window.location.hash.slice(1))
-    }
-  }
-}
 </script>
 
 <style lang='stylus'>

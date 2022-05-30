@@ -2,7 +2,7 @@
   <aside class="page-sidebar">
     <slot name="top"/>
 
-    <div class="page-side-toolbar">
+   <div class="page-side-toolbar">
 
 
       <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)">

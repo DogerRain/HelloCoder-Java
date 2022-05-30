@@ -11,7 +11,7 @@ lock: false
 ---
 # 跟武哥一起学习Spring Boot
 
-# 作者信息
+## 作者信息
 
 本课程首发于 CSDN GitChat 达人课《跟武哥一起学Spring Boot》，该文档为课程详细笔记。
 作者：倪升武（武哥）

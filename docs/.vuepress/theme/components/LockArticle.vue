@@ -60,14 +60,17 @@
         mounted: function () {
             // 定时任务
 
-            if (this.isLock()) {
-                let $article = this.articleObj();
-                this._detect($article, this);
-            }
+            // if (this.isLock()) {
+            //     let $article = this.articleObj();
+            //     this._detect($article, this);
+            // }
 
-            // setInterval(() => {
-            //
-            // }, 150000);
+            setInterval(() => {
+                if (this.isLock()) {
+                    let $article = this.articleObj();
+                    this._detect($article, this);
+                }
+            }, 1500);
 
 
             // 判断是否锁定文章
@@ -147,6 +150,7 @@
                     $('#read-more-text_remainder').text(text_remainder);
 
 
+
                     // 获取口令
                     this.getToken().then(function (token) {
                         $('#fustack-token').text(token);
@@ -169,6 +173,10 @@
                         let clone = $('.read-more-wrap').clone();
                         clone.attr('id', 'read-more-wrap');
                         clone.css('display', 'block');
+
+
+                        let clone2= $('.right-menu-content').clone();
+                        clone2.css('pointer-events','none');
 
 
                         // readOj = document.getElementById('message_read_more');
@@ -216,6 +224,8 @@
 
                 $article.css('height', 'initial');
                 $article.removeClass('lock');
+
+                $('#right-menu-content').css('pointer-events','auto');
 
                 $('#read-more-wrap').remove();
 

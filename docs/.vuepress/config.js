@@ -18,7 +18,7 @@ module.exports = {
 
 
 
-    port: '8099',
+    port: '1299',
 
     theme: 'vdoing', // 使用依赖包主题
     // theme: require.resolve('vdoing'), // 使用本地主题
