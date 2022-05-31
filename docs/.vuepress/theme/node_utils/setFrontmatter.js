@@ -43,11 +43,12 @@ function setFrontmatter(sourceDir, themeConfig) {
 
 
       let lock = false;
+      let cateLabelStr = '';
 
       categories.forEach(item => {
         cateLabelStr += os.EOL + '  - ' + item;
 
-        if (item==='Java线程'  ){
+        if (item==='Java线程'){
           lock = true
         }
 
@@ -65,7 +66,6 @@ function setFrontmatter(sourceDir, themeConfig) {
 
 
 
-      let cateLabelStr = '';
 
 
       // 注意下面这些反引号字符串的格式会映射到文件
