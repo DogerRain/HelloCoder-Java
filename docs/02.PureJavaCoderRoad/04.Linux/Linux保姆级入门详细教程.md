@@ -2,12 +2,10 @@
 title: Linux保姆级入门详细教程
 date: 2022-05-26 17:04:01
 permalink: /pages/Linux%E4%BF%9D%E5%A7%86%E7%BA%A7%E5%85%A5%E9%97%A8%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 > https://www.zhihu.com/question/451255512
 

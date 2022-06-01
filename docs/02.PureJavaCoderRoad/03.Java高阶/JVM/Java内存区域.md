@@ -2,12 +2,11 @@
 title: Java内存区域
 date: 2022-05-26 17:04:00
 permalink: /pages/Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java高阶
   - JVM
-tags: 
-  - null
-lock: false
 ---
 很多人会误以为Java内存区域和内存模型是同一个东西，其实并不是。
 

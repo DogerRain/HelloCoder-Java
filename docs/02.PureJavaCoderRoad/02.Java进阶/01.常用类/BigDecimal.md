@@ -2,13 +2,11 @@
 title: BigDecimal
 date: 2022-05-26 17:03:57
 permalink: /pages/BigDecimal
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
-tags: 
-  - null
-lock: false
 ---
 在基本数据类型中，我们可以使用double或者float表示一个浮点数，使用double比较常见，但是在精度要求极高的情况下，比如金额计算，double就会有一个**精度丢失**问题。
 

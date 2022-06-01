@@ -2,12 +2,12 @@
 title: Java8新特性
 date: 2022-05-24 17:44:31
 permalink: /pages/Java8%E6%96%B0%E7%89%B9%E6%80%A7
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java进阶
   - Java新特性
-tags: 
-  - null
-lock: false
+  - steam
 ---
 
 

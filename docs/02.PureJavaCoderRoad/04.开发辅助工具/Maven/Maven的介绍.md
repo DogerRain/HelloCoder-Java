@@ -2,12 +2,11 @@
 title: Maven的介绍
 date: 2022-05-26 17:04:01
 permalink: /pages/Maven%E7%9A%84%E4%BB%8B%E7%BB%8D
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 开发辅助工具
   - Maven
-tags: 
-  - null
-lock: false
 ---
 Maven是一个跨平台的项目管理工具。作为Apache组织的一个颇为成功的开源项目，其主要服务于基于Java平台的项目创建，依赖管理和项目信息管理。
 

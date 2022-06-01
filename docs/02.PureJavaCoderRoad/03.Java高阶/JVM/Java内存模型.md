@@ -2,12 +2,11 @@
 title: Java内存模型
 date: 2022-05-26 17:04:00
 permalink: /pages/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java高阶
   - JVM
-tags: 
-  - null
-lock: false
 ---
 **Java内存模型**（Java Memory Model，JMM）是Java虚拟机规范定义的，用来屏蔽掉Java程序在各种不同的硬件和操作系统对内存的访问的差异。
 

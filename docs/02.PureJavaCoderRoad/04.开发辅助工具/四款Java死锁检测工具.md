@@ -2,12 +2,10 @@
 title: 四款Java死锁检测工具
 date: 2022-05-26 17:04:06
 permalink: /pages/%E5%9B%9B%E6%AC%BEJava%E6%AD%BB%E9%94%81%E6%A3%80%E6%B5%8B%E5%B7%A5%E5%85%B7
+lock: false
 categories: 
   - PureJavaCoderRoad
   - 开发辅助工具
-tags: 
-  - null
-lock: false
 ---
 在 Java 中，死锁（Deadlock）情况是指：**两个或两个以上的线程持有不同系统资源的锁，线程彼此都等待获取对方的锁来完成自己的任务，但是没有让出自己持有的锁，线程就会无休止等待下去。线程竞争的资源可以是：锁、网络连接、通知事件，磁盘、带宽，以及一切可以被称作“资源”的东西。**
 

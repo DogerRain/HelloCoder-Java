@@ -2,12 +2,10 @@
 title: Java后端知识掌握的一些常用图
 date: 2022-05-26 17:04:08
 permalink: /pages/Java%E5%90%8E%E7%AB%AF%E7%9F%A5%E8%AF%86%E6%8E%8C%E6%8F%A1%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%9B%BE
+lock: false
 categories: 
   - PureJavaCoderRoad
-  - 其他
-tags: 
-  - null
-lock: false
+  - 建议
 ---
 ## 絮
 

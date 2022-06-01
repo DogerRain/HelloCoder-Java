@@ -2,13 +2,11 @@
 title: Comparable接口
 date: 2022-05-26 17:03:56
 permalink: /pages/Comparable%E6%8E%A5%E5%8F%A3
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 集合
-tags: 
-  - null
-lock: false
 ---
 ## 1、Comparable
 

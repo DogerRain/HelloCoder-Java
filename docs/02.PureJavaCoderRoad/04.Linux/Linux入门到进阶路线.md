@@ -2,12 +2,10 @@
 title: Linux入门到进阶路线
 date: 2022-05-26 17:04:01
 permalink: /pages/Linux%E5%85%A5%E9%97%A8%E5%88%B0%E8%BF%9B%E9%98%B6%E8%B7%AF%E7%BA%BF
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 > https://www.zhihu.com/question/451255512
 

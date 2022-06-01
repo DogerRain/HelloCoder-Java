@@ -2,12 +2,10 @@
 title: MongoDB
 date: 2022-05-26 17:04:09
 permalink: /pages/MongoDB
+lock: false
 categories: 
   - PureJavaCoderRoad
   - 数据库
-tags: 
-  - null
-lock: false
 ---
 我们此前接触的MySQL、Oracle 都是 关系型数据库（Relational Database）
 

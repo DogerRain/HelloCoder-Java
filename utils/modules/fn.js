@@ -1,5 +1,6 @@
-// 类型判断exports.type = function (o){
-  var s = Object.prototype.toString.call(o)
+// 类型判断
+exports.type = function (o){
+    var s = Object.prototype.toString.call(o)
   return s.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
 

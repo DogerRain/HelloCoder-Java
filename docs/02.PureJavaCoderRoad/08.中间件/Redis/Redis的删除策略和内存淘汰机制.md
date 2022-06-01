@@ -2,12 +2,11 @@
 title: Redis的删除策略和内存淘汰机制
 date: 2022-05-26 17:04:04
 permalink: /pages/Redis%E7%9A%84%E5%88%A0%E9%99%A4%E7%AD%96%E7%95%A5%E5%92%8C%E5%86%85%E5%AD%98%E6%B7%98%E6%B1%B0%E6%9C%BA%E5%88%B6
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 中间件
   - Redis
-tags: 
-  - null
-lock: false
 ---
 Redis的key可以设置过期时间，那是否意味着时间一到就会马上被删除呢？
 

@@ -2,12 +2,11 @@
 title: RocketMQ的入门
 date: 2022-05-26 17:04:02
 permalink: /pages/RocketMQ%E7%9A%84%E5%85%A5%E9%97%A8
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 中间件
   - MQ
-tags: 
-  - null
-lock: false
 ---
 [RocketMQ的介绍](https://rain.baimuxym.cn/article/49)
 

@@ -2,12 +2,11 @@
 title: 1、Java异常
 date: 2022-05-26 17:04:09
 permalink: /pages/1%E3%80%81Java%E5%BC%82%E5%B8%B8
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java基础
   - 异常处理
-tags: 
-  - null
-lock: false
 ---
 我们在写代码的过程中，并不是所有的代码都是语法正确的，编译器在编译前就会报错。
 

@@ -2,13 +2,11 @@
 title: StringBuilder、StringBuffer、StringJoiner
 date: 2022-05-26 17:03:57
 permalink: /pages/StringBuilder%E3%80%81StringBuffer%E3%80%81StringJoiner
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
-tags: 
-  - null
-lock: false
 ---
 我们在使用字符串拼接的时候，可能会用到`String  +` 进行拼接：
 

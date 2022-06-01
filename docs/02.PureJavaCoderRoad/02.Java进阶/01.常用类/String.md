@@ -2,13 +2,11 @@
 title: String
 date: 2022-05-26 17:03:57
 permalink: /pages/String
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
-tags: 
-  - null
-lock: false
 ---
 前几章说过，String是一个很特殊的类。
 

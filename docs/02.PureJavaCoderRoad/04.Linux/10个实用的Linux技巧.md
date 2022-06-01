@@ -2,12 +2,10 @@
 title: 10个实用的Linux技巧
 date: 2022-05-26 17:04:01
 permalink: /pages/10%E4%B8%AA%E5%AE%9E%E7%94%A8%E7%9A%84Linux%E6%8A%80%E5%B7%A7
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 ## 1、查找当前目录下所有以.gz结尾的文件
 

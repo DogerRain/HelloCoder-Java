@@ -44,12 +44,13 @@
               <div class="scroll-box" style="text-align:center" >
                 <span style="font-size:0.8rem;font-weight:bold;">扫描公众号，回复<span style="color:red;">“1024”</span>下载<span style="color:red;">100GB+</span>大学到毕业分阶段学习技术资料、PDF书籍、实战项目、简历模板等「无任何套路」</span>
                 <img src="/images/personal/qrcode.png" height="180px" style="margin:10px;"/>
-                <b>公众号:</b> bugstack虫洞栈
+                <b>公众号:</b> HelloCoder
               </div>
             </div>
         </div>
       </div>
 
+      <!--
       <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">
         <img class="nozoom" src="/images/system/heart-1.png" width="25px" />
         <span class="show-txt">赞赏我</span>
@@ -65,19 +66,20 @@
             </div>
         </div>
       </div>
+      -->
 
-      <!--<div class="option-box" v-if="prev" style="padding-left:2px;text-align:center;" v-bind:title="prev.title">-->
-          <!--<router-link v-if="prev" :to="prev.path" >-->
-            <!--<img src="/images/system/pre2.png" width="30px" class="nozoom" />-->
-            <!--<span class="show-txt">上一篇</span>-->
-          <!--</router-link>-->
-      <!--</div>-->
-      <!--<div class="option-box" v-if="next" style="padding-left:2px;text-align:center;" v-bind:title="next.title">-->
-          <!--<router-link v-if="next" :to="next.path" >-->
-            <!--<img src="/images/system/next2.png" width="30px" class="nozoom" />-->
-            <!--<span class="show-txt">下一篇</span>-->
-          <!--</router-link>-->
-      <!--</div>-->
+      <!--<div class="option-box" v-if="prev" style="padding-left:2px;text-align:center;" v-bind:title="prev.title">
+          <router-link v-if="prev" :to="prev.path" >
+            <img src="/images/system/pre2.png" width="30px" class="nozoom" />
+            <span class="show-txt">上一篇</span>
+          </router-link>
+      </div>
+      <div class="option-box" v-if="next" style="padding-left:2px;text-align:center;" v-bind:title="next.title">
+          <router-link v-if="next" :to="next.path" >
+            <img src="/images/system/next2.png" width="30px" class="nozoom" />
+            <span class="show-txt">下一篇</span>
+          </router-link>
+      </div>-->
     </div>
 
     <slot name="middle"/>

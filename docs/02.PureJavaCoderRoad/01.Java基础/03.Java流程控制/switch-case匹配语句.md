@@ -2,13 +2,11 @@
 title: switch-case匹配语句
 date: 2022-05-24 17:44:33
 permalink: /pages/switch-case%E5%8C%B9%E9%85%8D%E8%AF%AD%E5%8F%A5
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java基础
   - Java流程控制
-tags: 
-  - null
-lock: false
 ---
 switch case 合理运用可以降低if-else的工作量。
 

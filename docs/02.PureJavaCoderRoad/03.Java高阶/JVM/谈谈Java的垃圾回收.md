@@ -2,12 +2,11 @@
 title: 谈谈Java的垃圾回收
 date: 2022-05-26 17:04:00
 permalink: /pages/%E8%B0%88%E8%B0%88Java%E7%9A%84%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java高阶
   - JVM
-tags: 
-  - null
-lock: false
 ---
 Java的垃圾回收老生常谈了，了解Java的GC对我们优化代码，设置参数性能调优有很大的帮助。
 

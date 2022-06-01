@@ -2,13 +2,11 @@
 title: Deque
 date: 2022-05-26 17:03:56
 permalink: /pages/Deque
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 集合
-tags: 
-  - null
-lock: false
 ---
 ## Deque是什么
 

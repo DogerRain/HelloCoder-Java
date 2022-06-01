@@ -2,12 +2,11 @@
 title: 使用新版Maven-mvnd
 date: 2022-05-26 17:04:01
 permalink: /pages/%E4%BD%BF%E7%94%A8%E6%96%B0%E7%89%88Maven-mvnd
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 开发辅助工具
   - Maven
-tags: 
-  - null
-lock: false
 ---
 Maven、gradle 作为主流的构建工具，几乎所有的Java项目都使用，但是Maven相对gradle来说，构建还是太慢了。特别是构建十几个子项目的程序。
 

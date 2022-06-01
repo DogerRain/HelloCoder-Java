@@ -30,7 +30,7 @@ function createSidebarData(sourceDir, collapsable) {
         } else {
             const sidebarObj = mapTocToSidebar(toc, collapsable);
 
-            log("当前sidebarObj：", sidebarObj)
+            // log("当前sidebarObj：", sidebarObj)
 
             if (!sidebarObj.sidebar.length) {
                 log(chalk.yellow(`warning: 该目录 "${toc}" 内部没有任何文件或文件序号出错，将忽略生成对应侧边栏`))
@@ -57,7 +57,7 @@ function createSidebarData(sourceDir, collapsable) {
                         },
 
                     ]
-
+                sidebarData.catalogue = sidebarObj.catalogueData;
                 return sidebarData;
 
 
@@ -266,7 +266,7 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
 
         if (isDir) {
 
-            log("当前目录：", filename)
+            // log("当前目录：", filename)
 
 
             if (filename === 'picture') {

@@ -2,12 +2,11 @@
 title: Redis分布式事务锁的原理
 date: 2022-05-26 17:04:04
 permalink: /pages/Redis%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E9%94%81%E7%9A%84%E5%8E%9F%E7%90%86
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 中间件
   - Redis
-tags: 
-  - null
-lock: false
 ---
 上次面试，面试官问有没有做过**并发类**的系统
 

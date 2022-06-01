@@ -5,25 +5,13 @@ const sidebar = require('./sidebar.js');
 
 module.exports = {
 
-    // css: {
-    //     extract: true, // 是否使用css分离插件 ExtractTextPlugin
-    //     sourceMap: false, // 开启 CSS source maps?
-    //     loaderOptions: {
-    //         less: {
-    //             javascriptEnabled: true //less 配置
-    //         }
-    //     },
-    // },
-
-
-
 
     port: '1299',
 
     theme: 'vdoing', // 使用依赖包主题
     // theme: require.resolve('vdoing'), // 使用本地主题
-    title: "科技阿雨",
-    description: '致力于分享免费又好用的软件',
+    title: "HelloCoder",
+    description: 'java面试,java学习,面试指南,Java小白求职之路',
 
     //项目路径配置
     base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -35,7 +23,7 @@ module.exports = {
 
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
         ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
-        ['meta', {name: 'keywords', content: '科技阿雨,软件,小雨,黑科技'}],
+        ['meta', {name: 'keywords', content: 'java面试,java面试题目,java学习,面试指南,Java小白求职之路'}],
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
 
         // ['meta', {name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87'}], // 广告相关，你可以去掉
@@ -67,12 +55,13 @@ module.exports = {
         //         src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
         //     }],
         // 添加百度统计
+        //已换成 learnjava 的 hmcode
         ["script", {},
             `
               var _hmt = _hmt || [];
               (function() {
                 var hm = document.createElement("script");
-                hm.src = "https://hm.baidu.com/hm.js?0b31b4c146bf7126aed5009e1a4a11c8";
+                hm.src = "https://hm.baidu.com/hm.js?b673363a2df767abd890cd6918642392";
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(hm, s);
               })();
@@ -205,7 +194,7 @@ module.exports = {
         [
             'vuepress-plugin-baidu-tongji', // 百度统计
             {
-                hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
+                hm: baiduCode || 'b673363a2df767abd890cd6918642392'
             }
         ],
 

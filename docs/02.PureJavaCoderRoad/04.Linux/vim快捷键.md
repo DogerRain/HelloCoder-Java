@@ -2,12 +2,10 @@
 title: vim快捷键
 date: 2022-05-26 17:04:01
 permalink: /pages/vim%E5%BF%AB%E6%8D%B7%E9%94%AE
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 # 删除复制黏贴
 

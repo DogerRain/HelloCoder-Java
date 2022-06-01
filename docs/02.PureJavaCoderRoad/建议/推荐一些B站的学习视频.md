@@ -2,12 +2,10 @@
 title: 推荐一些B站的学习视频
 date: 2022-05-26 17:04:08
 permalink: /pages/%E6%8E%A8%E8%8D%90%E4%B8%80%E4%BA%9BB%E7%AB%99%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%A7%86%E9%A2%91
+lock: false
 categories: 
   - PureJavaCoderRoad
-  - 其他
-tags: 
-  - null
-lock: false
+  - 建议
 ---
 ## 1、Java基础
 

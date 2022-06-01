@@ -2,13 +2,14 @@
 title: 4、Java运算符
 date: 2022-05-24 17:44:33
 permalink: /pages/4%E3%80%81Java%E8%BF%90%E7%AE%97%E7%AC%A6
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java基础
-  - Java基础
+  - Java语法
 tags: 
-  - null
-lock: false
+  - Java
+  - 运算符
 ---
 Java是一门逻辑语言，在进行算术运算的时候，CPU可以直接识别，常见的运算符包括以下几种：
 

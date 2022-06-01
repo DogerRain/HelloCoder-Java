@@ -2,13 +2,11 @@
 title: List
 date: 2022-05-26 17:03:56
 permalink: /pages/List
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 集合
-tags: 
-  - null
-lock: false
 ---
 ## List介绍
 

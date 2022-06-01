@@ -2,13 +2,15 @@
 title: Java的就业和发展
 date: 2022-05-24 17:44:32
 permalink: /pages/Java%E7%9A%84%E5%B0%B1%E4%B8%9A%E5%92%8C%E5%8F%91%E5%B1%95
+lock: false
 categories: 
   - PureJavaCoderRoad
-  - Java基础
-  - Java入门
+  - 导读
 tags: 
-  - null
-lock: false
+  - Java
+  - 就业
+  - 发展
+  - 就业和发展
 ---
 ## Java的受欢迎程度
 

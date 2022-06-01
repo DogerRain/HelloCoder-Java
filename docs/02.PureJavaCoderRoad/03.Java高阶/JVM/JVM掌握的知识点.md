@@ -2,12 +2,11 @@
 title: JVM掌握的知识点
 date: 2022-05-26 17:04:00
 permalink: /pages/JVM%E6%8E%8C%E6%8F%A1%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java高阶
   - JVM
-tags: 
-  - null
-lock: false
 ---
 Java基础学完之后，JVM相关的知识点也要知道一点。
 

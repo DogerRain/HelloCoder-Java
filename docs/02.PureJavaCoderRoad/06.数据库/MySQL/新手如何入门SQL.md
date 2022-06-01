@@ -2,12 +2,11 @@
 title: 新手如何入门SQL
 date: 2022-05-26 17:04:02
 permalink: /pages/%E6%96%B0%E6%89%8B%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8SQL
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 数据库
   - MySQL
-tags: 
-  - null
-lock: false
 ---
 ## 絮
 

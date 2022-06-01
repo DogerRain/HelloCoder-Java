@@ -2,12 +2,11 @@
 title: SpringBoot经典学习笔记
 date: 2022-05-26 17:04:04
 permalink: /pages/SpringBoot%E7%BB%8F%E5%85%B8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - JavaEE
   - springboot教程
-tags: 
-  - null
-lock: false
 ---
 # 跟武哥一起学习Spring Boot
 

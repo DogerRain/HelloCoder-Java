@@ -2,13 +2,14 @@
 title: 3、Java数组
 date: 2022-05-24 17:44:33
 permalink: /pages/3%E3%80%81Java%E6%95%B0%E7%BB%84
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java基础
-  - Java基础
+  - Java语法
 tags: 
-  - null
-lock: false
+  - Java
+  - 数组
 ---
 ## Java 数组
 

@@ -2,12 +2,10 @@
 title: 八个能提升效率的Linux快捷键
 date: 2022-05-26 17:04:01
 permalink: /pages/%E5%85%AB%E4%B8%AA%E8%83%BD%E6%8F%90%E5%8D%87%E6%95%88%E7%8E%87%E7%9A%84Linux%E5%BF%AB%E6%8D%B7%E9%94%AE
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
  Linux命令相信大家都会，特别是一些基础的命令，比如ls、cd、cat、vi 等等。
 

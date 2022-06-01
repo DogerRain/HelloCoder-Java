@@ -2,13 +2,15 @@
 title: 2、Java数据变量和类型
 date: 2022-05-24 17:44:33
 permalink: /pages/2%E3%80%81Java%E6%95%B0%E6%8D%AE%E5%8F%98%E9%87%8F%E5%92%8C%E7%B1%BB%E5%9E%8B
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java基础
-  - Java基础
+  - Java语法
 tags: 
-  - null
-lock: false
+  - Java
+  - 数据变量
+  - 类型
 ---
 Java的变量的类型分为两种
 

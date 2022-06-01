@@ -2,13 +2,11 @@
 title: 6、Java控制流程
 date: 2022-05-24 17:44:33
 permalink: /pages/6%E3%80%81Java%E6%8E%A7%E5%88%B6%E6%B5%81%E7%A8%8B
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java基础
   - Java流程控制
-tags: 
-  - null
-lock: false
 ---
 Java的变量可以定义不同的数据，但是Java作为一门逻辑的语言，少不了逻辑结构。
 

@@ -2,13 +2,11 @@
 title: HashCode和equals
 date: 2022-05-26 17:03:56
 permalink: /pages/HashCode%E5%92%8Cequals
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 集合
-tags: 
-  - null
-lock: false
 ---
 ## 1、hashcode是什么
 

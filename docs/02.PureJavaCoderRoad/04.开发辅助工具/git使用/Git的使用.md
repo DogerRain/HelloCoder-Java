@@ -2,12 +2,11 @@
 title: Git的使用
 date: 2022-05-26 17:04:05
 permalink: /pages/Git%E7%9A%84%E4%BD%BF%E7%94%A8
+lock: false
 categories: 
   - PureJavaCoderRoad
   - 开发辅助工具
-tags: 
-  - null
-lock: false
+  - git使用
 ---
 Git是一个版本管理工具，你想想看，如果一个项目有多个人开发，如何保证协作的过程中代码是正确的、是同步的呢？
 

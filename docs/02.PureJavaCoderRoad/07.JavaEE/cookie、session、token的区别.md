@@ -2,12 +2,10 @@
 title: cookie、session、token的区别
 date: 2022-05-26 17:04:06
 permalink: /pages/cookie%E3%80%81session%E3%80%81token%E7%9A%84%E5%8C%BA%E5%88%AB
+lock: false
 categories: 
   - PureJavaCoderRoad
-  - 框架
-tags: 
-  - null
-lock: false
+  - JavaEE
 ---
 > 转自：https://www.cnblogs.com/moyand/p/9047978.html
 

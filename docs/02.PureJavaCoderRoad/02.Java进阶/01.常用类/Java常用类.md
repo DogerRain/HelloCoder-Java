@@ -2,13 +2,11 @@
 title: Java常用类
 date: 2022-05-26 17:03:57
 permalink: /pages/Java%E5%B8%B8%E7%94%A8%E7%B1%BB
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
-tags: 
-  - null
-lock: false
 ---
 Java是一门成熟的语言，也是一门包含许多第三方库（jar包）的语言，我们不需要特意的造轮子（封装自己的方法）。
 

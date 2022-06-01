@@ -2,13 +2,14 @@
 title: 1、Java基础语法
 date: 2022-05-24 17:44:33
 permalink: /pages/1%E3%80%81Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java基础
-  - Java基础
+  - Java语法
 tags: 
-  - null
-lock: false
+  - Java
+  - 基础语法
 ---
 我们在学英语的时候，要讲究 主谓宾，要让听者明白，就要按照英语的语法表述。
 

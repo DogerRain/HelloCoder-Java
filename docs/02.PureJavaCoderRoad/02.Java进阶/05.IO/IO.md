@@ -2,13 +2,11 @@
 title: IO
 date: 2022-05-26 17:03:55
 permalink: /pages/IO
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - IO
-tags: 
-  - null
-lock: false
 ---
 [toc]
 

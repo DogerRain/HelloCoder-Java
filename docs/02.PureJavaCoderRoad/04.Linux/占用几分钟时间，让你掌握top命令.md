@@ -2,12 +2,10 @@
 title: 占用几分钟时间，让你掌握top命令
 date: 2022-05-26 17:04:01
 permalink: /pages/%E5%8D%A0%E7%94%A8%E5%87%A0%E5%88%86%E9%92%9F%E6%97%B6%E9%97%B4%EF%BC%8C%E8%AE%A9%E4%BD%A0%E6%8E%8C%E6%8F%A1top%E5%91%BD%E4%BB%A4
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 服务器负载过高，排查问题一定离不开top命令。
 

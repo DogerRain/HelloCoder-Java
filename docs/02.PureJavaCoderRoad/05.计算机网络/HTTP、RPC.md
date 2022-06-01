@@ -2,12 +2,10 @@
 title: HTTP、RPC
 date: 2022-05-26 17:04:04
 permalink: /pages/HTTP%E3%80%81RPC
+lock: false
 categories: 
   - PureJavaCoderRoad
   - 计算机网络
-tags: 
-  - null
-lock: false
 ---
 ## 1、两台计算机如何进行网络通信？
 

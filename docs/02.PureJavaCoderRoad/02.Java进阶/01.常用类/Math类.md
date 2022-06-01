@@ -2,13 +2,11 @@
 title: Math类
 date: 2022-05-26 17:03:57
 permalink: /pages/Math%E7%B1%BB
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
-tags: 
-  - null
-lock: false
 ---
 `java.lang.Math` 是Java库提供的一个计算数学相关的类。
 

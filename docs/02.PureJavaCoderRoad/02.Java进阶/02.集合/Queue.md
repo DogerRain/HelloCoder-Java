@@ -2,13 +2,11 @@
 title: Queue
 date: 2022-05-26 17:03:56
 permalink: /pages/Queue
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 集合
-tags: 
-  - null
-lock: false
 ---
 ## Queue介绍
 

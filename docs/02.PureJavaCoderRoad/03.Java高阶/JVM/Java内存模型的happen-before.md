@@ -2,12 +2,11 @@
 title: Java内存模型的happen-before
 date: 2022-05-26 17:04:00
 permalink: /pages/Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E7%9A%84happen-before
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java高阶
   - JVM
-tags: 
-  - null
-lock: false
 ---
 happen-before 和 指令重排序不是一个概念。
 

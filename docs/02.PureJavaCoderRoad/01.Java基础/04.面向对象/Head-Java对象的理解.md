@@ -2,12 +2,11 @@
 title: Head-Java对象的理解
 date: 2022-05-26 17:04:06
 permalink: /pages/Head-Java%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%90%86%E8%A7%A3
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - Java基础
   - 面向对象
-tags: 
-  - null
-lock: false
 ---
 Java是一种面向对象的编程语言。
 

@@ -2,12 +2,10 @@
 title: centos开机流程详解
 date: 2022-05-26 17:04:01
 permalink: /pages/centos%E5%BC%80%E6%9C%BA%E6%B5%81%E7%A8%8B%E8%AF%A6%E8%A7%A3
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 一、linux开机流程：
 

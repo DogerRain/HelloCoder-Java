@@ -2,12 +2,10 @@
 title: Centos使用教程
 date: 2022-05-26 17:04:01
 permalink: /pages/Centos%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 > 本文演示Linux版本：Centos8.8
 

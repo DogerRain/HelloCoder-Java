@@ -9,6 +9,8 @@ const log = console.log
 const path = require('path');
 const os = require('os');
 
+const {getTags,getPropertyCount}  = require('./modules/cutTags');
+
 const PREFIX = '/pages/'
 
 /**
@@ -18,6 +20,9 @@ function setFrontmatter(sourceDir, themeConfig) {
   log("检查Frontmatter开始....")
   const { category: isCategory, tag: isTag, categoryText = '随笔', extendFrontmatter } = themeConfig
   const files = readFileList(sourceDir) // 读取所有md文件数据
+
+  let hascategory =[];
+
   // 扩展自定义生成frontmatter
   const extendFrontmatterStr = extendFrontmatter ?
     jsonToYaml.stringify(extendFrontmatter)
@@ -60,33 +65,51 @@ function setFrontmatter(sourceDir, themeConfig) {
         cateStr = os.EOL + 'categories:' + cateLabelStr
       };
 
+
+
+      //permalink
       let link = PREFIX +file.name;
 
       link = encodeURI(link);
 
 
+      log("file.name:",file.name)
+      //tags
+      let tagLabelStr = '';
+      let tags = getTags(file.name);
+      if (getPropertyCount(tags)===0){
+        tagLabelStr += os.EOL + '  - ' + categories[categories.length-1];
+      }
+
+      let tagStr = '';
+      if (!(isTag===false)){
+        tagStr = os.EOL + 'tags:' + tagLabelStr
+      }
 
 
 
       // 注意下面这些反引号字符串的格式会映射到文件
-      const tagsStr = isTag === false ? '' : `
-      
-      
-tags:
-  - `;
+//       const tagsStr = isTag === false ? '' : `
+//
+//
+// tags:
+//   - `;
 
       const fmData = `---
 title: ${file.name}
 date: ${dateStr}
 lock: ${lock}
-permalink: ${link}${file.filePath.indexOf('_posts') > -1 ? os.EOL + 'sidebar: auto' : ''}${cateStr}${tagsStr}
+permalink: ${link}${file.filePath.indexOf('_posts') > -1 ? os.EOL + 'sidebar: auto' : ''}${cateStr}${tagStr}
 ${extendFrontmatterStr}---`;
 
 
       fs.writeFileSync(file.filePath, `${fmData}${os.EOL}${fileMatterObj.content}`); // 写入
       log(chalk.blue('tip ') + chalk.green(`write frontmatter(写入frontmatter)：${file.filePath} `))
 
-    } else { // 已有FrontMatter
+    }
+
+    // 已有FrontMatter
+    else {
       let matterData = fileMatterObj.data;
       let hasChange = false;
 
@@ -119,11 +142,18 @@ ${extendFrontmatterStr}---`;
 
       if (!matterData.hasOwnProperty('pageComponent') && matterData.article !== false) { // 是文章页才添加分类和标签
         if (isCategory !== false && !matterData.hasOwnProperty('categories')) { // 分类
-          matterData.categories = getCategories(file, categoryText)
+           hascategory = getCategories(file, categoryText);
+            matterData.categories= hascategory;
           hasChange = true;
         }
         if (isTag !== false && !matterData.hasOwnProperty('tags')) { // 标签
-          matterData.tags = [''];
+
+            let tags = getTags(file.name);
+            if (getPropertyCount(tags)===0){
+                tags.push(hascategory[getPropertyCount(hascategory)-1]);
+            }
+
+          matterData.tags = tags;
           hasChange = true;
         }
       }
@@ -144,7 +174,7 @@ ${extendFrontmatterStr}---`;
         }
         const newData = jsonToYaml.stringify(matterData).replace(/\n\s{2}/g, "\n").replace(/"/g, "") + '---' + os.EOL + fileMatterObj.content;
         fs.writeFileSync(file.filePath, newData); // 写入
-        log(chalk.blue('tip ') + chalk.green(`write frontmatter(写入frontmatter)：${file.filePath} `))
+        log(chalk.blue('tip hasChange') + chalk.green(`write frontmatter(写入frontmatter)：${file.filePath} `))
       }
 
     }

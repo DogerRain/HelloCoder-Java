@@ -2,12 +2,10 @@
 title: 自学Java的建议
 date: 2022-05-26 17:04:08
 permalink: /pages/%E8%87%AA%E5%AD%A6Java%E7%9A%84%E5%BB%BA%E8%AE%AE
+lock: false
 categories: 
   - PureJavaCoderRoad
-  - 其他
-tags: 
-  - null
-lock: false
+  - 建议
 ---
 我是个非科班出身的程序员，毕业于一所不知名的普通本科学校。
 

@@ -65,7 +65,7 @@
             /> -->
         </Page>
 
-        <PageSidebar v-if="showPageSidebar"/>
+        <!--<PageSidebar v-if="showPageSidebar"/>-->
 
         <Footer/>
 
@@ -98,7 +98,7 @@
 </template>
 
 <script>
-    import PageSidebar from '@theme/components/PageSidebar.vue'
+    // import PageSidebar from '@theme/components/PageSidebar.vue'
     import Home from '@theme/components/Home.vue'
     import Navbar from '@theme/components/Navbar.vue'
     import Page from '@theme/components/Page.vue'
@@ -128,7 +128,6 @@
             Footer,
             Buttons,
             BodyBgImg,
-            PageSidebar
         },
 
         data() {
@@ -204,6 +203,10 @@
                     this.$site,
                     this.$localePath
                 )
+            },
+
+            pageSidebarItems () {
+                return resolveHeaders(this.$page)
             },
 
             pageClasses() {

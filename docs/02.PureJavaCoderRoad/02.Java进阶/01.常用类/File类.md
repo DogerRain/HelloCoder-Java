@@ -2,13 +2,11 @@
 title: File类
 date: 2022-05-26 17:03:57
 permalink: /pages/File%E7%B1%BB
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
-tags: 
-  - null
-lock: false
 ---
 ##  File类
 

@@ -2,12 +2,10 @@
 title: Java代码优化细节
 date: 2022-05-26 17:04:08
 permalink: /pages/Java%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%E7%BB%86%E8%8A%82
+lock: false
 categories: 
   - PureJavaCoderRoad
-  - 其他
-tags: 
-  - null
-lock: false
+  - 建议
 ---
 **代码优化细节**
 

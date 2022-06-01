@@ -2,12 +2,10 @@
 title: Linux三剑客之awk命令
 date: 2022-05-26 17:04:01
 permalink: /pages/Linux%E4%B8%89%E5%89%91%E5%AE%A2%E4%B9%8Bawk%E5%91%BD%E4%BB%A4
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 awk 是一种处理文本文件的语言，是一个强大的文本分析工具。它可以根据分隔符将每行内容进行切片，切开的部分再进行分析处理。
 

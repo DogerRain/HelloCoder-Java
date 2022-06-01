@@ -2,12 +2,11 @@
 title: 推荐一款Nginx可视化操作工具
 date: 2022-05-26 17:04:02
 permalink: /pages/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BENginx%E5%8F%AF%E8%A7%86%E5%8C%96%E6%93%8D%E4%BD%9C%E5%B7%A5%E5%85%B7
+lock: false
 categories: 
   - PureJavaCoderRoad
+  - 中间件
   - Nginx
-tags: 
-  - null
-lock: false
 ---
 有时候发现 Nginx 在修改的时候十分麻烦，对我这种使用vim不习惯的菜鸟来说，每次都是把conf文件复制到本地，修改完成后再上传上去，十分耗费时间。
 

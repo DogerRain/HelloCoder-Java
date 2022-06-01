@@ -2,12 +2,10 @@
 title: shell编程学习
 date: 2022-05-26 17:04:01
 permalink: /pages/shell%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0
+lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
-tags: 
-  - null
-lock: false
 ---
 ## shell编程的一些习惯
 
