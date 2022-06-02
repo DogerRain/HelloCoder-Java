@@ -6,5 +6,7 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - 架构
+tags: 
+  - DevOps
 ---
 参考：https://mp.weixin.qq.com/s/yPeRriDT-miiLoJdY-aY8Q

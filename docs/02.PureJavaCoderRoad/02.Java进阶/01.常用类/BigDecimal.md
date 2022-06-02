@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
+tags: 
+  - BigDecimal
 ---
 在基本数据类型中，我们可以使用double或者float表示一个浮点数，使用double比较常见，但是在精度要求极高的情况下，比如金额计算，double就会有一个**精度丢失**问题。
 

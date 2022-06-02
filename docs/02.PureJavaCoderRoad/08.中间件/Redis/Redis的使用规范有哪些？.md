@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Redis
+tags: 
+  - Redis
 ---
 ## 使用规范
 

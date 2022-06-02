@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Nginx
+tags: 
+  - Nginx
+  - 入门
 ---
 几乎所有的项目部署，都会用到Nginx。
 

@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 集合
+tags: 
+  - Comparable
+  - 接口
 ---
 ## 1、Comparable
 

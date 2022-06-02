@@ -1,7 +1,8 @@
 const log = console.log;
 // let str = "GitHub超详细的编程学习路线";
 // let str = "Java的就业和发展";
-let str = "8.Callable和Runnable的区别";
+// let str = "8.Callable和Runnable的区别";
+let str = "toString()、String.valueOf、(String)强转有什么区别？";
 
 let tags = getTags(str);
 
@@ -31,12 +32,12 @@ function getTags(fileName) {
     // log("tags[]:",getPropertyCount(tags));
 
 
-    let filter = ["吗", "啊", "呢", "什么", "、", "。", "？", "?"]
+    let filter = ["吗", "啊", "呢", "什么"]
 
     let concatKeys = ["和", "的", "是"];
 
 
-    let chineseEnglish = str.match(/[a-zA-Z\u4e00-\u9fa5]/g);
+    let chineseEnglish = str.match(/[a-zA-Z\u4e00-\u9fa5\-\_\、]+/g);
 
 
     chineseEnglish = chineseEnglish.join("");

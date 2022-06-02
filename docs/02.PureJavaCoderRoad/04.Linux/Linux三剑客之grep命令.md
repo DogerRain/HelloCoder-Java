@@ -6,6 +6,11 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - Linux
+  - grep
+  - 三剑客之
+  - 命令
 ---
 grep是Linux三大文本（awk，sed，grep）处理工具之一，有着强大的过滤功能。
 

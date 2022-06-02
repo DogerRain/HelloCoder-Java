@@ -7,5 +7,8 @@ categories:
   - PureJavaCoderRoad
   - 开发辅助工具
   - Maven
+tags: 
+  - Maven
+  - 高级使用
 ---
 https://yuzhouwan.com/posts/2254/

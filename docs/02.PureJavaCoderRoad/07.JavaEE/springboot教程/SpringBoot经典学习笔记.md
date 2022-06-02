@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - JavaEE
   - springboot教程
+tags: 
+  - SpringBoot
 ---
 # 跟武哥一起学习Spring Boot
 

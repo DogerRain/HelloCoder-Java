@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java基础
   - 异常处理
+tags: 
+  - Java
+  - 异常
 ---
 我们在写代码的过程中，并不是所有的代码都是语法正确的，编译器在编译前就会报错。
 

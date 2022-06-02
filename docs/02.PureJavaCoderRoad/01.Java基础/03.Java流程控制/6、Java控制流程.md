@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java基础
   - Java流程控制
+tags: 
+  - Java
+  - 控制流程
 ---
 Java的变量可以定义不同的数据，但是Java作为一门逻辑的语言，少不了逻辑结构。
 

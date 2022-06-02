@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - MQ
+tags: 
+  - RocketMQ
+  - 入门
 ---
 [RocketMQ的介绍](https://rain.baimuxym.cn/article/49)
 

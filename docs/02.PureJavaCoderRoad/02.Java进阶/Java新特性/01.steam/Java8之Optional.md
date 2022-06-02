@@ -8,6 +8,9 @@ categories:
   - Java进阶
   - Java新特性
   - steam
+tags: 
+  - Java
+  - Optional
 ---
 > 这是一篇译文
 > 原文地址：https://dzone.com/articles/understanding-accepting-and-leveraging-optional-in

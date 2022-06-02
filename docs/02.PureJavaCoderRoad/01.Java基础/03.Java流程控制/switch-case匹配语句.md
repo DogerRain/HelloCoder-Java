@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java基础
   - Java流程控制
+tags: 
+  - switchcase
+  - 匹配语句
 ---
 switch case 合理运用可以降低if-else的工作量。
 

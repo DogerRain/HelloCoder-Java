@@ -6,6 +6,11 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - Linux
+  - awk
+  - 三剑客之
+  - 命令
 ---
 awk 是一种处理文本文件的语言，是一个强大的文本分析工具。它可以根据分隔符将每行内容进行切片，切开的部分再进行分析处理。
 

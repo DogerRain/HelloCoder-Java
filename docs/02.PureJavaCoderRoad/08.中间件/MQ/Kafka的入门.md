@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - MQ
+tags: 
+  - Kafka
+  - 入门
 ---
 https://www.cnblogs.com/sujing/p/10960832.html
 

@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 集合
+tags: 
+  - List
 ---
 ## List介绍
 

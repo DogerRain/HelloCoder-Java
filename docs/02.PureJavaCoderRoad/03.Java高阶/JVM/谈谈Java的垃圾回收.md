@@ -7,6 +7,10 @@ categories:
   - PureJavaCoderRoad
   - Java高阶
   - JVM
+tags: 
+  - Java
+  - 谈谈
+  - 垃圾回收
 ---
 Java的垃圾回收老生常谈了，了解Java的GC对我们优化代码，设置参数性能调优有很大的帮助。
 

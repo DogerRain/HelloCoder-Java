@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 开发辅助工具
   - Maven
+tags: 
+  - Mavenmvnd
+  - 使用新版
 ---
 Maven、gradle 作为主流的构建工具，几乎所有的Java项目都使用，但是Maven相对gradle来说，构建还是太慢了。特别是构建十几个子项目的程序。
 

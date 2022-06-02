@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
+tags: 
+  - String
 ---
 前几章说过，String是一个很特殊的类。
 

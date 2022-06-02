@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Nginx
+tags: 
+  - Nginx
+  - 推荐一款
 ---
 有时候发现 Nginx 在修改的时候十分麻烦，对我这种使用vim不习惯的菜鸟来说，每次都是把conf文件复制到本地，修改完成后再上传上去，十分耗费时间。
 

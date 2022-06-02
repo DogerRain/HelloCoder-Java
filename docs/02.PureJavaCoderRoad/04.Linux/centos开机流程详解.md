@@ -6,6 +6,8 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - centos
 ---
 一、linux开机流程：
 

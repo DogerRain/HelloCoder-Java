@@ -6,6 +6,10 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - Linux
+  - 个实用的
+  - 技巧
 ---
 ## 1、查找当前目录下所有以.gz结尾的文件
 

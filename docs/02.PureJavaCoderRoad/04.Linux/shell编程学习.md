@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - shell
+  - 编程学习
 ---
 ## shell编程的一些习惯
 

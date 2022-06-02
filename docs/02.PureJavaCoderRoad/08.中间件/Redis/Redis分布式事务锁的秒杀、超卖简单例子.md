@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Redis
+tags: 
+  - Redis
 ---
 上一篇文章介绍了Redisson的分布式锁原理，这篇文章来验证一下Redisson分布式锁的作用。
 

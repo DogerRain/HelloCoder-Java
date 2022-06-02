@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - Centos
+  - 使用教程
 ---
 > 本文演示Linux版本：Centos8.8
 

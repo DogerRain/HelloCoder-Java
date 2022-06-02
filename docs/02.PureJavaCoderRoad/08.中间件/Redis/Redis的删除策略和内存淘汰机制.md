@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Redis
+tags: 
+  - Redis
+  - 删除策略
 ---
 Redis的key可以设置过期时间，那是否意味着时间一到就会马上被删除呢？
 

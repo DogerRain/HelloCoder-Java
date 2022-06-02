@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - vim
+  - 快捷键
 ---
 # 删除复制黏贴
 

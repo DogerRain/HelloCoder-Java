@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 开发辅助工具
   - git使用
+tags: 
+  - Git
+  - 使用
 ---
 Git是一个版本管理工具，你想想看，如果一个项目有多个人开发，如何保证协作的过程中代码是正确的、是同步的呢？
 

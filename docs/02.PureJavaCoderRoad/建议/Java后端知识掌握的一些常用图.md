@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - 建议
+tags: 
+  - Java
+  - 一些常用图
 ---
 ## 絮
 

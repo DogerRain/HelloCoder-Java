@@ -6,6 +6,10 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - 建议
+tags: 
+  - Java
+  - 自学
+  - 建议
 ---
 我是个非科班出身的程序员，毕业于一所不知名的普通本科学校。
 

@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 开发辅助工具
   - Maven
+tags: 
+  - Maven
+  - 介绍
 ---
 Maven是一个跨平台的项目管理工具。作为Apache组织的一个颇为成功的开源项目，其主要服务于基于Java平台的项目创建，依赖管理和项目信息管理。
 

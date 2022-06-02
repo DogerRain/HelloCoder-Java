@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - top
+  - 命令
 ---
 服务器负载过高，排查问题一定离不开top命令。
 

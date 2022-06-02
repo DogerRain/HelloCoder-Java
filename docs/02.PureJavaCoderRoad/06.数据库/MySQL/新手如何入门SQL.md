@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - 数据库
   - MySQL
+tags: 
+  - SQL
 ---
 ## 絮
 

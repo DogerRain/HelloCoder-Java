@@ -7,6 +7,10 @@ categories:
   - PureJavaCoderRoad
   - Java高阶
   - JVM
+tags: 
+  - Java
+  - happenbefore
+  - 内存模型的
 ---
 happen-before 和 指令重排序不是一个概念。
 

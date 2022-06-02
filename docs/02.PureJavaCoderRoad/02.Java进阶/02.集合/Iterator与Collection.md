@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 集合
+tags: 
+  - Iterator
+  - Collection
 ---
 > 版本：jdk1.8
 

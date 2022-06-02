@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
+tags: 
+  - Java
+  - 常用类
 ---
 Java是一门成熟的语言，也是一门包含许多第三方库（jar包）的语言，我们不需要特意的造轮子（封装自己的方法）。
 

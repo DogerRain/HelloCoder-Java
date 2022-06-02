@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java基础
   - 面向对象
+tags: 
+  - HeadJava
+  - 对象的理解
 ---
 Java是一种面向对象的编程语言。
 

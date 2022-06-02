@@ -7,6 +7,8 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 常用类
+tags: 
+  - Math
 ---
 `java.lang.Math` 是Java库提供的一个计算数学相关的类。
 

@@ -8,6 +8,9 @@ categories:
   - Java进阶
   - Java新特性
   - steam
+tags: 
+  - Java
+  - Stream
 ---
 ## 1、Streams是什么
 

@@ -7,4 +7,7 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Nginx
+tags: 
+  - Nginx
+  - 核心原理
 ---

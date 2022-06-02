@@ -7,6 +7,10 @@ categories:
   - PureJavaCoderRoad
   - Java高阶
   - JVM
+tags: 
+  - JVM
+  - 掌握
+  - 知识点
 ---
 Java基础学完之后，JVM相关的知识点也要知道一点。
 

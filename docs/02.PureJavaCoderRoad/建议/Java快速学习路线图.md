@@ -6,6 +6,8 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - 建议
+tags: 
+  - Java
 ---
 JavaSE
 

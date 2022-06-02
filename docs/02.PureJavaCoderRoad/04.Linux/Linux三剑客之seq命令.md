@@ -6,5 +6,10 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - Linux
+  - seq
+  - 三剑客之
+  - 命令
 ---
 待....

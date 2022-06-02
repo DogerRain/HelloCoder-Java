@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Redis
+tags: 
+  - Redis
+  - SDS
 ---
 ## 1、什么是 SDS？
 

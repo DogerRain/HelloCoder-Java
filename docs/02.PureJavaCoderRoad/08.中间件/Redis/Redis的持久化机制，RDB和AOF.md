@@ -7,6 +7,11 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Redis
+tags: 
+  - Redis
+  - RDB
+  - AOF
+  - 持久化机制
 ---
 Redis是基于内存操作，很快，既然Redis在内存工作，但是数据如何保存呢？
 

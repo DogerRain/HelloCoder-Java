@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java高阶
   - JVM
+tags: 
+  - Java
+  - 内存区域
 ---
 很多人会误以为Java内存区域和内存模型是同一个东西，其实并不是。
 

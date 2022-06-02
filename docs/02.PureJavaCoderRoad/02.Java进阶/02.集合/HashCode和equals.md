@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - Java进阶
   - 集合
+tags: 
+  - HashCode
+  - equals
 ---
 ## 1、hashcode是什么
 

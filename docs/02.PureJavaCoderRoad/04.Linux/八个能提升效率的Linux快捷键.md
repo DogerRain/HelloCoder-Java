@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - Linux
+tags: 
+  - Linux
+  - 快捷键
 ---
  Linux命令相信大家都会，特别是一些基础的命令，比如ls、cd、cat、vi 等等。
 

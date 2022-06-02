@@ -7,6 +7,9 @@ categories:
   - PureJavaCoderRoad
   - 中间件
   - Redis
+tags: 
+  - Redis
+  - 原理
 ---
 上次面试，面试官问有没有做过**并发类**的系统
 

@@ -6,6 +6,9 @@ lock: false
 categories: 
   - PureJavaCoderRoad
   - 建议
+tags: 
+  - GitHub
+  - 超详细
 ---
 github地址：https://github.com/kamranahmedse/developer-roadmap/tree/master/translations/chinese
 
