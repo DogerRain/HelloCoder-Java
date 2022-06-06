@@ -2,16 +2,16 @@ const log = console.log;
 // let str = "GitHub超详细的编程学习路线";
 // let str = "Java的就业和发展";
 // let str = "8.Callable和Runnable的区别";
-let str = "toString()、String.valueOf、(String)强转有什么区别？";
+// let str = "toString()、String.valueOf、(String)强转有什么区别？";
+//
+// let tags = getTags(str);
 
-let tags = getTags(str);
-
-if (getPropertyCount(tags) === 0) {
-    log("tags为空")
-}
-for (let t in  tags) {
-    log(tags[t])
-}
+// if (getPropertyCount(tags) === 0) {
+//     log("tags为空")
+// }
+// for (let t in  tags) {
+//     log(tags[t])
+// }
 
 /**
  * 主体函数

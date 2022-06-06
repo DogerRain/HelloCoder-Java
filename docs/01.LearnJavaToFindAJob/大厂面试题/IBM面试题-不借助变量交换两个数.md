@@ -1,12 +1,6 @@
 ---
-title: IBM面试题-不借助变量交换两个数
-date: 2022-06-02 11:18:20
 lock: false
-permalink: /pages/IBM%E9%9D%A2%E8%AF%95%E9%A2%98-%E4%B8%8D%E5%80%9F%E5%8A%A9%E5%8F%98%E9%87%8F%E4%BA%A4%E6%8D%A2%E4%B8%A4%E4%B8%AA%E6%95%B0
-categories:
-  - LearnJavaToFindAJob
-  - 大厂面试题
-tags:
+tags: null
 ---
 一群里的小伙伴去IBM面试，面试官上来就问了一道开胃菜题目：**不借助变量如何交换两个数？**
 
