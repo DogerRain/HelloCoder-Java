@@ -1,6 +1,15 @@
 ---
+title: Spring的传播行为有哪些？隔离级别有哪些？
+date: 2022-06-02 11:18:20
 lock: false
-tags: null
+permalink: /pages/Spring%E7%9A%84%E4%BC%A0%E6%92%AD%E8%A1%8C%E4%B8%BA%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+  - Spring
+tags: 
+  - Spring
 ---
 ## Spring的传播行为有哪些？隔离级别有哪些？
 

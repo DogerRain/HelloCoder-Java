@@ -1,6 +1,15 @@
 ---
+title: Redis的监控指标有哪些？
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E7%9A%84%E7%9B%91%E6%8E%A7%E6%8C%87%E6%A0%87%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
 ---
 Redis的监控指标有很多，主要分为：
 

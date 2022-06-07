@@ -1,6 +1,15 @@
 ---
+title: Redis为什么要使用单线程，新版本为什么引入多线程？
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8%E5%8D%95%E7%BA%BF%E7%A8%8B%EF%BC%8C%E6%96%B0%E7%89%88%E6%9C%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%95%E5%85%A5%E5%A4%9A%E7%BA%BF%E7%A8%8B%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
 ---
 这篇文章不是简单的讲述单线程的好处，而是为了说明Redis为什么要采用单线程的原因。
 

@@ -3,23 +3,23 @@ home: true
 heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
 heroText: HelloCoder
 tagline: 
-actionText: 开始使用 →
+#actionText: 开始使用 →
 actionLink: /pages/shiyongruanjian/
 #bannerBg: none  # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 bannerBg: https://blockchainlittlebook.com/images/blbcover.gif
-#features: # 可选的
-#  - title: 《Java小白求职》
-#    details: Java面试题目
-#    link: /pages/shiyongruanjian/ # 可选
-#    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png # 可选
-#  - title: 壁纸
-#    details: 1080p、4K 高清壁纸
-#    link:  /pages/bizhi/
-#    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
-#  - title: 资源
-#    details: 免费学习资源、游戏、电影、歌曲
-#    link: /pages/b52e5c/
-#    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+features: # 可选的
+  - title: 《Java小白求职》
+    details: 作者本人在Java面试中遇到的题目
+    link: /pages/shiyongruanjian/ # 可选
+    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png # 可选
+  - title: 《小白学Java》
+    details: Java学到什么程度才能找到一份工作
+    link:  /pages/bizhi/
+    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+  - title: 资源 & 工具
+    details: Java电子书、常用开发工具、免费学习视频
+    link: /pages/b52e5c/
+    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
  
 
 
@@ -39,20 +39,14 @@ postList: none
 
  ## 💎 公众号
 
-公众号会分享整理后的黑科技软件，第一时间推文
+公众号<Badge text="HelloCoder"/>是本人对各种有趣的技术进行归纳和分享，第一时间推送，包含：
+- 一些有趣的github开源项目
+- 高效率的开发工具
 
-<Badge text="科技阿雨"/>是本人对各种 有趣的、有用的、不为人知的软件进行分享，比如
-<!-- 
 
-- [小霸王游戏机](https://game.xugaoyi.com)
-- [爱国头像生成器](https://avatar.xugaoyi.com/)
-- [到账语音生成器](https://zfb.xugaoyi.com/)
--->
-
-还有更多好玩的等你去探索吧~
 
 ::: center
-<img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:190px;" />
+<img src="/img/site/HelloCoder.png"  style="width:190px;" />
 :::
 
 
@@ -159,6 +153,8 @@ postList: none
   .pageT .wwads-hide{display:none!important;}
 </style>
 
-
+<span id="busuanzi_container_site_pv">
+👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
+</span>| 🐒本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
 <!-- 评论 -->
 <Vssue :title="$title" />

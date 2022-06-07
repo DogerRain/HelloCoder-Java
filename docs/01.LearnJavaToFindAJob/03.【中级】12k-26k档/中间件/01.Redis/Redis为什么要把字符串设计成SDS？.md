@@ -1,6 +1,16 @@
 ---
+title: Redis为什么要把字符串设计成SDS？
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%8A%8A%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%AE%BE%E8%AE%A1%E6%88%90SDS%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
+  - SDS
 ---
 ## 1、什么是 SDS？
 

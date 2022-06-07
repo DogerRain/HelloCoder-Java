@@ -1,6 +1,19 @@
 ---
+title: binlog、redolog、undolog的区别和作用
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/binlog%E3%80%81redolog%E3%80%81undolog%E7%9A%84%E5%8C%BA%E5%88%AB%E5%92%8C%E4%BD%9C%E7%94%A8
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - binlog
+  - redolog
+  - undolog
+  - 区别
+  - 作用
+  - 区别和作用
 ---
 我们知道事务有ACID四个，四个事务的实现是通过InnoDB日志和锁来保证的。
 

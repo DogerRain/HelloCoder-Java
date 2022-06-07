@@ -1,6 +1,15 @@
 ---
+title: MySQL面试题
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/MySQL%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - MySQL
+tags: 
+  - MySQL
+  - 面试题
 ---
 ### 1、事务具有四个特征
 

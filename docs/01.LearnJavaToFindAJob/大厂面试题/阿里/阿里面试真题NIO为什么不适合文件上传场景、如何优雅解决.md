@@ -1,6 +1,14 @@
 ---
+title: 阿里面试真题NIO为什么不适合文件上传场景、如何优雅解决
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/%E9%98%BF%E9%87%8C%E9%9D%A2%E8%AF%95%E7%9C%9F%E9%A2%98NIO%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E9%80%82%E5%90%88%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%9C%BA%E6%99%AF%E3%80%81%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E8%A7%A3%E5%86%B3
+categories: 
+  - LearnJavaToFindAJob
+  - 大厂面试题
+  - 阿里
+tags: 
+  - NIO
 ---
 > 原文：https://mp.weixin.qq.com/s/VMiB-4a15TgsIA2W-c4HHg
 >

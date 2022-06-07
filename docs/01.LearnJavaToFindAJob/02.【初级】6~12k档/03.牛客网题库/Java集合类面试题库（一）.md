@@ -1,6 +1,14 @@
 ---
-lock: false
-tags: null
+title: Java集合类面试题库（一）
+date: 2022-06-02 11:18:16
+lock: true
+permalink: /pages/Java%E9%9B%86%E5%90%88%E7%B1%BB%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BA%93%EF%BC%88%E4%B8%80%EF%BC%89
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - 牛客网题库
+tags: 
+  - Java
 ---
 ##### 1、下面哪个Set类是排序的？
 

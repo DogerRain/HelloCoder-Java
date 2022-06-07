@@ -48,12 +48,18 @@ module.exports = {
                 async: 'async',
                 src: '/js/fingerprint2.min.js',
             }],
-        // ['script',
-        //     {
-        //         charset: 'utf-8',
-        //         async: 'async',
-        //         src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
-        //     }],
+        ['script',
+            {
+                charset: 'utf-8',
+                async: 'async',
+                src: 'https://readmore.openwrite.cn/js/readmore.js',
+            }],
+        ['script',
+            {
+                charset: 'utf-8',
+                async: 'async',
+                src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+            }],
         // 添加百度统计
         //已换成 learnjava 的 hmcode
         ["script", {},

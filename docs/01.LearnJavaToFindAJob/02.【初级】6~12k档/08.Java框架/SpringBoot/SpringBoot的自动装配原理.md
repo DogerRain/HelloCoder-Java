@@ -1,6 +1,15 @@
 ---
+title: SpringBoot的自动装配原理
+date: 2022-06-02 11:18:20
 lock: false
-tags: null
+permalink: /pages/SpringBoot%E7%9A%84%E8%87%AA%E5%8A%A8%E8%A3%85%E9%85%8D%E5%8E%9F%E7%90%86
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+  - SpringBoot
+tags: 
+  - SpringBoot
 ---
 springboot的自动装配原理可以配合springboot的启动原理一起学习。
 

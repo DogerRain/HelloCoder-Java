@@ -1,6 +1,18 @@
 ---
+title: MySQL索引的分类、何时使用、何时不使用、何时失效？
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/MySQL%E7%B4%A2%E5%BC%95%E7%9A%84%E5%88%86%E7%B1%BB%E3%80%81%E4%BD%95%E6%97%B6%E4%BD%BF%E7%94%A8%E3%80%81%E4%BD%95%E6%97%B6%E4%B8%8D%E4%BD%BF%E7%94%A8%E3%80%81%E4%BD%95%E6%97%B6%E5%A4%B1%E6%95%88%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - MySQL
+  - 索引的分类
+  - 何时使用
+  - 何时不使用
+  - 何时失效
 ---
 ## 1、索引分类
 
@@ -12,7 +24,7 @@ tags: null
 
 普通索引的值可以重复，可以为空
 
-```mysql
+```sql
 alter table `table_name` add index index_name(`column`);
 ```
 
@@ -29,7 +41,7 @@ alter table `table_name` add index index_name(`column`);
 
 索引列的值必须唯一，不能重复，但可以为空
 
-```mysql
+```sql
 alter table `table_name` add unique(`column`);
 ```
 
@@ -37,7 +49,7 @@ alter table `table_name` add unique(`column`);
 
 索引列的值必须唯一，不能重复只能有一个，不允许为空。一般在建表指定。
 
-```mysql
+```sql
 alter table `table_name` add primary key(`column`);
 ```
 
@@ -45,7 +57,7 @@ alter table `table_name` add primary key(`column`);
 
 在多个字段上创建索引，遵循最左前缀原则
 
-```mysql
+```sql
 alter table `table_name` add index index_name(`column1`,`column2`,`column3`);
 ```
 
@@ -55,7 +67,7 @@ alter table `table_name` add index index_name(`column1`,`column2`,`column3`);
 
 > 注意：FULLTEXT索引仅可用于 MyISAM 表
 
-```mysql
+```sql
 # 创建表的时候添加全文索引
 CREATE TABLE `artical` (
     `id` int(11) NOT NULL AUTO_INCREMENT,

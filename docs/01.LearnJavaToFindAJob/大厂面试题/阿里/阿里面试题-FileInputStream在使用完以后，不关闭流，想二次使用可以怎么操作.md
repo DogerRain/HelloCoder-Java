@@ -1,6 +1,15 @@
 ---
+title: 阿里面试题-FileInputStream在使用完以后，不关闭流，想二次使用可以怎么操作
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/%E9%98%BF%E9%87%8C%E9%9D%A2%E8%AF%95%E9%A2%98-FileInputStream%E5%9C%A8%E4%BD%BF%E7%94%A8%E5%AE%8C%E4%BB%A5%E5%90%8E%EF%BC%8C%E4%B8%8D%E5%85%B3%E9%97%AD%E6%B5%81%EF%BC%8C%E6%83%B3%E4%BA%8C%E6%AC%A1%E4%BD%BF%E7%94%A8%E5%8F%AF%E4%BB%A5%E6%80%8E%E4%B9%88%E6%93%8D%E4%BD%9C
+categories: 
+  - LearnJavaToFindAJob
+  - 大厂面试题
+  - 阿里
+tags: 
+  - FileInputStream
+  - 阿里面试题
 ---
 ## 题目
 

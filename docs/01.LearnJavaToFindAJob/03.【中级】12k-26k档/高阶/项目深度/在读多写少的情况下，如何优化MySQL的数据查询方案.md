@@ -1,6 +1,16 @@
 ---
+title: 在读多写少的情况下，如何优化MySQL的数据查询方案
+date: 2022-06-02 11:18:16
 lock: false
-tags: null
+permalink: /pages/%E5%9C%A8%E8%AF%BB%E5%A4%9A%E5%86%99%E5%B0%91%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8C%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96MySQL%E7%9A%84%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2%E6%96%B9%E6%A1%88
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 高阶
+  - 项目深度
+tags: 
+  - MySQL
+  - 在读多写少
 ---
 >来源：CSDN
 

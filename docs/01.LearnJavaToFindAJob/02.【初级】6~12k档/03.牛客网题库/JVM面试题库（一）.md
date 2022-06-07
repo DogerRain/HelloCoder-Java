@@ -1,6 +1,15 @@
 ---
-lock: false
-tags: null
+title: JVM面试题库（一）
+date: 2022-06-02 11:18:16
+lock: true
+permalink: /pages/JVM%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BA%93%EF%BC%88%E4%B8%80%EF%BC%89
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - 牛客网题库
+tags: 
+  - JVM
+  - 面试题库一
 ---
 ##### 1.假定str0,...,str4后序代码都是只读引用。Java 7中，以下述代码为基础，在发生过一次FullGC后，上述代码在Heap空间（不包括PermGen）保留的字符数为（）
 

@@ -1,7 +1,7 @@
 ---
 title: Redis的使用规范有哪些？
 date: 2022-05-26 17:04:04
-permalink: /pages/Redis%E7%9A%84%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F
+permalink: /PureJavaCoderRoad/pages/Redis%E7%9A%84%E4%BD%BF%E7%94%A8%E8%A7%84%E8%8C%83%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F
 lock: false
 categories: 
   - PureJavaCoderRoad

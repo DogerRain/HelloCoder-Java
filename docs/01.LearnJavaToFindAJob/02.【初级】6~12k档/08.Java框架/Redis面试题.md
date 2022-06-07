@@ -1,6 +1,16 @@
 ---
+title: Redis面试题
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
+  - 面试题
 ---
 >我们在单机服务器，出现资源的竞争，一般使用synchronized 就可以解决，但是在分布式的服务器上，synchronized 就无法解决这个问题，这就需要一个分布式事务锁。
 >

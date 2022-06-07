@@ -1,6 +1,17 @@
 ---
+title: Spring事务失效的场景有哪些？
+date: 2022-06-02 11:18:20
 lock: false
-tags: null
+permalink: /pages/Spring%E4%BA%8B%E5%8A%A1%E5%A4%B1%E6%95%88%E7%9A%84%E5%9C%BA%E6%99%AF%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+  - Spring
+tags: 
+  - Spring
+  - 事务失效
+  - 场景有哪些
 ---
 ## spring的事务失效场景有哪些？
 

@@ -1,6 +1,16 @@
 ---
+title: MySQL的自增ID用完了会怎样？
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/MySQL%E7%9A%84%E8%87%AA%E5%A2%9EID%E7%94%A8%E5%AE%8C%E4%BA%86%E4%BC%9A%E6%80%8E%E6%A0%B7%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - MySQL
+  - ID
+  - 自增
 ---
 我本人没有遇到这个问题，但是看到群里的小伙伴被问了，这也是个很有趣的问题，涉及MySQL的原理了，而且还是个坑，会牵涉很多问题。
 
@@ -26,7 +36,7 @@ tags: null
 
 我这里使用`int`作为主键，建表，设置最大的自增ID：
 
-```mysql
+```sql
 CREATE TABLE test 
 ( 
 	id INT UNSIGNED auto_increment PRIMARY KEY,
@@ -39,7 +49,7 @@ INSERT INTO test(`name`) VALUES ( "HaC" );
 
 这个语句是插入成功的：
 
-```mysql
+```sql
 mysql> select * from test;
 +------------+------+
 | id         | name |
@@ -51,7 +61,7 @@ mysql> select * from test;
 
 我们此时再插入一条语句 `INSERT INTO test(name) VALUES ( "HelloCoder" );`
 
-```mysql
+```sql
 mysql> INSERT INTO test(`name`) VALUES ( "HelloCoder" );
 ERROR 1062 (23000): Duplicate entry '4294967295' for key 'PRIMARY'
 ```
@@ -76,7 +86,7 @@ bigint 占8个字节，`2^64 -1  = 18446744073709551615` 。
 
 但是，你想想看，上千万上亿的数据，你一个：
 
-```mysql
+```sql
 ALTER TABLE test modify  COLUMN id BIGINT NOT NULL;
 ```
 
@@ -95,7 +105,7 @@ Mysql在5.6版本之前，直接修改表结构的过程中会锁表，所以不
 
 Mysql 5.6 虽然引入了Online DDL，在修改表结构的时候，增加`ALGORITHM=INPLACE, LOCK=NONE`，在运行 alter table 操作的同时允许运行 select,insert,update,delete语句。
 
-```mysql
+```sql
 ALTER TABLE tbl_name CHANGE c1 c1 BIGINT, ALGORITHM=COPY;
 ```
 

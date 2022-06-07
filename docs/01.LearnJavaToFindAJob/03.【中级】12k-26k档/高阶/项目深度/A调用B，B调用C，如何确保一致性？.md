@@ -1,6 +1,18 @@
 ---
+title: A调用B，B调用C，如何确保一致性？
+date: 2022-06-02 11:18:16
 lock: false
-tags: null
+permalink: /pages/A%E8%B0%83%E7%94%A8B%EF%BC%8CB%E8%B0%83%E7%94%A8C%EF%BC%8C%E5%A6%82%E4%BD%95%E7%A1%AE%E4%BF%9D%E4%B8%80%E8%87%B4%E6%80%A7%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 高阶
+  - 项目深度
+tags: 
+  - A
+  - BB
+  - C
+  - 调用
 ---
 \1. MQ：无论A、B、C监听事件失败消息，并针对不同业务类型和业务id进行回滚操作即可
 

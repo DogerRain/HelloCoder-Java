@@ -1,5 +1,14 @@
 ---
-tags: null
+title: 数据库连接池为什么要使用ThreadLocal？
+date: 2022-06-02 11:18:18
+lock: false
+permalink: /pages/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5%E6%B1%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8ThreadLocal%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - Java进阶
+tags: 
+  - ThreadLocal
 ---
 ThreadLocal 不知道大家日常有没有用到，反正HaC我是没有用过，但是这个东西确实是挺重要的，我之前在多线程的专题里面写过一篇。
 

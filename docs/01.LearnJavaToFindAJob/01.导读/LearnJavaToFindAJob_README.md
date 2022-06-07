@@ -1,6 +1,13 @@
 ---
+title: LearnJavaToFindAJob_README
+date: 2022-06-06 14:57:44
 lock: false
-tags: null
+permalink: /pages/LearnJavaToFindAJob_README
+categories: 
+  - LearnJavaToFindAJob
+  - 导读
+tags: 
+  - LearnJavaToFindAJob_README
 ---
 # 💐HelloCoder
 
@@ -12,7 +19,7 @@ tags: null
 
 ### 1.1、 高频面试题
 
-- [Java基础](articles\Java基础\Java基础面试题.md)
+- [Java基础](\pages\Java基础)
 - [计算机网络](articles\计算机网络\计算机网络面试题.md)
 - [JVM面试题](articles\JVM\JVM面试题.md)
 - [Java多线程面试题](articles\Java线程\Java多线程面试题.md)

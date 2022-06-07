@@ -1,6 +1,17 @@
 ---
+title: Redis主从同步的原理
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E4%B8%BB%E4%BB%8E%E5%90%8C%E6%AD%A5%E7%9A%84%E5%8E%9F%E7%90%86
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
+  - 主从同步
+  - 原理
 ---
 ## 1、Redis主从架构作用
 

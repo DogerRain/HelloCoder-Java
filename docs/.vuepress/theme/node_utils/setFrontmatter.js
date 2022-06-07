@@ -56,6 +56,9 @@ function setFrontmatter(sourceDir, themeConfig) {
         if (item==='Java线程'){
           lock = true
         }
+        if (item==='牛客网题库' || item==='求职建议'){
+          lock = true
+        }
 
       });
 
@@ -63,8 +66,7 @@ function setFrontmatter(sourceDir, themeConfig) {
       let cateStr = '';
       if (!(isCategory === false)) {
         cateStr = os.EOL + 'categories:' + cateLabelStr
-      };
-
+      }
 
 
       //permalink
@@ -79,6 +81,10 @@ function setFrontmatter(sourceDir, themeConfig) {
       let tags = getTags(file.name);
       if (getPropertyCount(tags)===0){
         tagLabelStr += os.EOL + '  - ' + categories[categories.length-1];
+      }else {
+        tags.forEach(item => {
+          tagLabelStr += os.EOL + '  - ' + item;
+        });
       }
 
       let tagStr = '';
@@ -110,6 +116,8 @@ ${extendFrontmatterStr}---`;
 
     // 已有FrontMatter
     else {
+
+
       let matterData = fileMatterObj.data;
       let hasChange = false;
 

@@ -1,6 +1,15 @@
 ---
+title: Linux面试题
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/Linux%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Linux
+tags: 
+  - Linux
+  - 面试题
 ---
 ## 1、 常用的Linux命令
 

@@ -1,6 +1,14 @@
 ---
+title: 阿里一面，给了几条SQL，问需要执行几次树搜索操作？
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/%E9%98%BF%E9%87%8C%E4%B8%80%E9%9D%A2%EF%BC%8C%E7%BB%99%E4%BA%86%E5%87%A0%E6%9D%A1SQL%EF%BC%8C%E9%97%AE%E9%9C%80%E8%A6%81%E6%89%A7%E8%A1%8C%E5%87%A0%E6%AC%A1%E6%A0%91%E6%90%9C%E7%B4%A2%E6%93%8D%E4%BD%9C%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 大厂面试题
+  - 阿里
+tags: 
+  - SQL
 ---
 > 作者：捡田螺的小男孩
 > 链接：https://juejin.cn/post/6923788859712995336

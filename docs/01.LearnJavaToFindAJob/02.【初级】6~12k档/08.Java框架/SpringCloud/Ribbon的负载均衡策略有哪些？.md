@@ -1,6 +1,15 @@
 ---
+title: Ribbon的负载均衡策略有哪些？
+date: 2022-06-02 11:18:20
 lock: false
-tags: null
+permalink: /pages/Ribbon%E7%9A%84%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AD%96%E7%95%A5%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+  - SpringCloud
+tags: 
+  - Ribbon
 ---
 ## 1、Ribbon的负载均衡策略有哪些？
 

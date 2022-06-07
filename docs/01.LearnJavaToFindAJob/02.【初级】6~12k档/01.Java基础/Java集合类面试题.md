@@ -1,6 +1,14 @@
 ---
+title: Java集合类面试题
+date: 2022-06-02 11:18:17
 lock: false
-tags: null
+permalink: /pages/Java%E9%9B%86%E5%90%88%E7%B1%BB%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java基础
+tags: 
+  - Java
 ---
 
 
@@ -97,7 +105,7 @@ JDK1.7的 ConcurrentHashMap 底层采用 分段的数组+链表 实现，JDK1.8 
 
 1. Set 接口实例存储的是**无序的，不重复的数据**。List 接口实例存储的是**有序的，可以重复的元素**。都可以存储null值，但是set不能重复所以最多只能有一个空元素。
 2. Set检索效率低下，删除和插入效率高，插入和删除不会引起元素位置改变 <实现类有HashSet,TreeSet>。
-3. List和数组类似，可以动态增长，根据实际存储的数据的长度自动增长List的长度。查找元素效率高，插入删除效率低，因为会引起其他元素位置改变 <实现类有ArrayList,LinkedList,Vector> 。
+3. List和数组类似，可以动态增长，根据实际存储的数据的长度自动增长List的长度。查找元素效率高，插入删除效率低，因为会引起其他元素位置改变 ，实现类有ArrayList,LinkedList,Vector。
 
 
 

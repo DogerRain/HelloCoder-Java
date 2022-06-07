@@ -1,6 +1,15 @@
 ---
+title: 快手Java后台三面，意向已拿，面试官都问了些啥？
+date: 2022-06-02 11:18:20
 lock: false
-tags: null
+permalink: /pages/%E5%BF%AB%E6%89%8BJava%E5%90%8E%E5%8F%B0%E4%B8%89%E9%9D%A2%EF%BC%8C%E6%84%8F%E5%90%91%E5%B7%B2%E6%8B%BF%EF%BC%8C%E9%9D%A2%E8%AF%95%E5%AE%98%E9%83%BD%E9%97%AE%E4%BA%86%E4%BA%9B%E5%95%A5%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 大厂面试题
+  - 快手
+tags: 
+  - Java
+  - 快手
 ---
 > 作者：老罗带你玩Java
 > 链接：https://www.jianshu.com/p/07a5d7ff7a28

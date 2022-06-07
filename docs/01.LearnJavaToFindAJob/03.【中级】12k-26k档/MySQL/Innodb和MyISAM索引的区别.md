@@ -1,6 +1,16 @@
 ---
+title: Innodb和MyISAM索引的区别
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/Innodb%E5%92%8CMyISAM%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8C%BA%E5%88%AB
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - Innodb
+  - MyISAM
+  - 索引的区别
 ---
 虽然说MyISAM和InnoDB都是使用了`B+Tree`作为索引结构，但是它们两者在实现却有很大的差异。
 

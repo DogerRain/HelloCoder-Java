@@ -1,6 +1,17 @@
 ---
+title: 一致性hash算法
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/%E4%B8%80%E8%87%B4%E6%80%A7hash%E7%AE%97%E6%B3%95
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - hash
+  - 一致性
+  - 算法
 ---
 在上一篇[Redis主从、哨兵、集群的区别](articles\Redis\Redis主从、哨兵、集群的区别.md) 提到了Redis的常见架构。
 

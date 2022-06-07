@@ -19,38 +19,38 @@
  */
 
 
-module.exports = {
-  // 万维广告
-  pageB: `
-  <div class="wwads-cn wwads-horizontal pageB" data-id="135" style="width:100%;max-height:80px;min-height:auto;"></div>
-  <style>
-    .pageB img{width:80px!important;}
-    .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;}
-  </style>
-  `,
-  windowRB: `
-    <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
-    min-width: auto;min-height:auto;"></div>
-    <style>
-      .windowRB{ padding: 0;}
-      .windowRB .wwads-img{margin-top: 10px;}
-      .windowRB .wwads-content{margin: 0 10px 10px 10px;}
-      .custom-html-window-rb .close-but{
-        display: none;
-      }
-    </style>
-  `,
-  // 全局页面顶部， 横向自适应 固定100% * 90px可显示，max-height:90px未见显示
-  pageT: `<div class="wwads-cn wwads-horizontal" data-id="125" style="width:100%;height:90px;"></div>`
-}
-
-
 // module.exports = {
-//   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+//   // 万维广告
+//   pageB: `
+//   <div class="wwads-cn wwads-horizontal pageB" data-id="135" style="width:100%;max-height:80px;min-height:auto;"></div>
+//   <style>
+//     .pageB img{width:80px!important;}
+//     .wwads-horizontal .wwads-text, .wwads-content .wwads-text{line-height:1;}
+//   </style>
+//   `,
+//   windowRB: `
+//     <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
+//     min-width: auto;min-height:auto;"></div>
+//     <style>
+//       .windowRB{ padding: 0;}
+//       .windowRB .wwads-img{margin-top: 10px;}
+//       .windowRB .wwads-content{margin: 0 10px 10px 10px;}
+//       .custom-html-window-rb .close-but{
+//         display: none;
+//       }
+//     </style>
+//   `,
+//   // 全局页面顶部， 横向自适应 固定100% * 90px可显示，max-height:90px未见显示
+//   pageT: `<div class="wwads-cn wwads-horizontal" data-id="125" style="width:100%;height:90px;"></div>`
 // }
+
+
+module.exports = {
+  homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+}

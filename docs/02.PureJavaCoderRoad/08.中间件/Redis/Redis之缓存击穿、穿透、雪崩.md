@@ -1,7 +1,7 @@
 ---
 title: Redis之缓存击穿、穿透、雪崩
 date: 2022-05-26 17:04:04
-permalink: /pages/Redis%E4%B9%8B%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E3%80%81%E7%A9%BF%E9%80%8F%E3%80%81%E9%9B%AA%E5%B4%A9
+permalink: /PureJavaCoderRoad/pages/Redis%E4%B9%8B%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E3%80%81%E7%A9%BF%E9%80%8F%E3%80%81%E9%9B%AA%E5%B4%A9
 lock: false
 categories: 
   - PureJavaCoderRoad

@@ -28,13 +28,13 @@ async function main() {
   }];
   let edit = true;
 
-  await inquirer.prompt(promptList).then(answers => {
-    edit = answers.edit
-  })
-
-  if(!edit) { // 退出操作
-    return
-  }
+  // await inquirer.prompt(promptList).then(answers => {
+  //   edit = answers.edit
+  // })
+  //
+  // if(!edit) { // 退出操作
+  //   return
+  // }
   
   const config = yamlToJs.load(configPath) // 解析配置文件的数据转为js对象
 
@@ -61,12 +61,18 @@ async function main() {
     if (config.delete) {
       if( type(config.delete) !== 'array' ) {
         log(chalk.yellow('未能完成删除操作，delete字段的值应该是一个数组！'))
+
+
       } else {
         config.delete.forEach(item => {
-          if (matterData[item]) {
-            delete matterData[item]
-            mark = true
-          }
+          log("matterData[item]的值：",matterData[item])
+          delete matterData[item]
+          mark = true
+          // if (matterData[item]) {
+          //   delete matterData[item]
+          //   mark = true
+          // }
+          log("matterData:",matterData)
         })
         
       }
@@ -83,7 +89,14 @@ async function main() {
       if(matterData.date && type(matterData.date) === 'date') {
         matterData.date = repairDate(matterData.date) // 修复时间格式
       }
-      const newData = jsonToYaml.stringify(matterData).replace(/\n\s{2}/g,"\n").replace(/"/g,"")  + '---\r\n' + fileMatterObj.content;
+      var newData ="";
+      if (JSON.stringify(matterData) == "{}") {
+        newData =""+ fileMatterObj.content;
+      }else{
+        newData = jsonToYaml.stringify(matterData).replace(/\n\s{2}/g,"\n").replace(/"/g,"")          + '---\r\n'+ fileMatterObj.content;
+
+      }
+
       fs.writeFileSync(file.filePath, newData); // 写入
       log(chalk.green(`update frontmatter：${file.filePath} `))
     }

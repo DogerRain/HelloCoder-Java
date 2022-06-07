@@ -1,6 +1,18 @@
 ---
+title: 聊聊MySQL索引的分类和结构吧
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/%E8%81%8A%E8%81%8AMySQL%E7%B4%A2%E5%BC%95%E7%9A%84%E5%88%86%E7%B1%BB%E5%92%8C%E7%BB%93%E6%9E%84%E5%90%A7
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - MySQL
+  - 聊聊
+  - 索引的分类
+  - 结构吧
+  - 索引
 ---
 ## Q 聊聊MySQL索引的分类和结构吧
 

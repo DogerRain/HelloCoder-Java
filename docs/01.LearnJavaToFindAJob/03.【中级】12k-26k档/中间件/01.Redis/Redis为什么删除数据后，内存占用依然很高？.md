@@ -1,6 +1,15 @@
 ---
+title: Redis为什么删除数据后，内存占用依然很高？
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%90%8E%EF%BC%8C%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8%E4%BE%9D%E7%84%B6%E5%BE%88%E9%AB%98%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
 ---
 有一次线上要做数据的预热，是一个暂时性的高并发活动，启动的时候把MySQL的部分数据加载到缓存，免得因为请求量过大而击穿数据库造成服务器压力。
 

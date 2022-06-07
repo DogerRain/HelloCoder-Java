@@ -1,5 +1,14 @@
 ---
-tags: null
+title: Java多线程面试题
+date: 2022-06-02 11:18:18
+lock: false
+permalink: /pages/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java基础
+tags: 
+  - Java
 ---
 ### 1、 线程创建方式
 

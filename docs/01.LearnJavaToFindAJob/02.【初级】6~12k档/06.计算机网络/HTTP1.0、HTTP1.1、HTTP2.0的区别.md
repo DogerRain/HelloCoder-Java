@@ -1,6 +1,15 @@
 ---
+title: 0、HTTP1.1、HTTP2.0的区别
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/0%E3%80%81HTTP1.1%E3%80%81HTTP2.0%E7%9A%84%E5%8C%BA%E5%88%AB
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - 计算机网络
+tags: 
+  - HTTP
+  - 区别
 ---
 ## HTTP 1.0
 

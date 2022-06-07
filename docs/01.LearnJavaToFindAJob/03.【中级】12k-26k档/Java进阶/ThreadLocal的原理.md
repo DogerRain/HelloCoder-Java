@@ -1,6 +1,15 @@
 ---
+title: ThreadLocal的原理
+date: 2022-06-02 11:18:17
 lock: false
-tags: null
+permalink: /pages/ThreadLocal%E7%9A%84%E5%8E%9F%E7%90%86
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - Java进阶
+tags: 
+  - ThreadLocal
+  - 原理
 ---
 ## 1、什么是ThreadLocal ？为什么要用ThreadLocal ？
 

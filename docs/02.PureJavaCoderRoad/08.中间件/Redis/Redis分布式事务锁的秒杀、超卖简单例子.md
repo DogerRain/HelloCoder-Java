@@ -1,7 +1,7 @@
 ---
 title: Redis分布式事务锁的秒杀、超卖简单例子
 date: 2022-05-26 17:04:04
-permalink: /pages/Redis%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E9%94%81%E7%9A%84%E7%A7%92%E6%9D%80%E3%80%81%E8%B6%85%E5%8D%96%E7%AE%80%E5%8D%95%E4%BE%8B%E5%AD%90
+permalink: /PureJavaCoderRoad/pages/Redis%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E9%94%81%E7%9A%84%E7%A7%92%E6%9D%80%E3%80%81%E8%B6%85%E5%8D%96%E7%AE%80%E5%8D%95%E4%BE%8B%E5%AD%90
 lock: false
 categories: 
   - PureJavaCoderRoad

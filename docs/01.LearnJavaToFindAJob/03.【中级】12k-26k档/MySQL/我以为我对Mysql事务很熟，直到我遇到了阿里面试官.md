@@ -1,6 +1,15 @@
 ---
+title: 我以为我对Mysql事务很熟，直到我遇到了阿里面试官
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/%E6%88%91%E4%BB%A5%E4%B8%BA%E6%88%91%E5%AF%B9Mysql%E4%BA%8B%E5%8A%A1%E5%BE%88%E7%86%9F%EF%BC%8C%E7%9B%B4%E5%88%B0%E6%88%91%E9%81%87%E5%88%B0%E4%BA%86%E9%98%BF%E9%87%8C%E9%9D%A2%E8%AF%95%E5%AE%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - Mysql
+  - 我以为我对
 ---
 > 本文链接：https://blog.csdn.net/qq_43255017/article/details/106442887.
 >

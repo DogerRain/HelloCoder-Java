@@ -1,6 +1,16 @@
 ---
+title: MySQL一些索引失效的场景和原理
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/MySQL%E4%B8%80%E4%BA%9B%E7%B4%A2%E5%BC%95%E5%A4%B1%E6%95%88%E7%9A%84%E5%9C%BA%E6%99%AF%E5%92%8C%E5%8E%9F%E7%90%86
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - MySQL
+  - 原理
+  - 场景和原理
 ---
 ## 1、为什么is null 和 is not null 会导致索引失效？
 

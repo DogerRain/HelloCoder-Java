@@ -1,6 +1,18 @@
 ---
+title: Redis的持久化机制，RDB和AOF
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E7%9A%84%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6%EF%BC%8CRDB%E5%92%8CAOF
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
+  - RDB
+  - AOF
+  - 持久化机制
 ---
 Redis是基于内存操作，很快，既然Redis在内存工作，但是数据如何保存呢？
 

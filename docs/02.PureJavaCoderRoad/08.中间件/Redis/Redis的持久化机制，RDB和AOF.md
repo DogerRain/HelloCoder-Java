@@ -1,7 +1,7 @@
 ---
 title: Redis的持久化机制，RDB和AOF
 date: 2022-05-26 17:04:04
-permalink: /pages/Redis%E7%9A%84%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6%EF%BC%8CRDB%E5%92%8CAOF
+permalink: /PureJavaCoderRoad/pages/Redis%E7%9A%84%E6%8C%81%E4%B9%85%E5%8C%96%E6%9C%BA%E5%88%B6%EF%BC%8CRDB%E5%92%8CAOF
 lock: false
 categories: 
   - PureJavaCoderRoad

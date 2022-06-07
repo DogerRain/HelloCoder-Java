@@ -1,6 +1,16 @@
 ---
+title: SpringCloud面试题
+date: 2022-06-02 11:18:20
 lock: false
-tags: null
+permalink: /pages/SpringCloud%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+  - SpringCloud
+tags: 
+  - SpringCloud
+  - 面试题
 ---
 ### 1、什么是 SpringCloud？为什么需要Spring Cloud？
 

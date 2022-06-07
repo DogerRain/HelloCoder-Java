@@ -1,6 +1,14 @@
 ---
+title: JVM三色标记算法思想
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/JVM%E4%B8%89%E8%89%B2%E6%A0%87%E8%AE%B0%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - JVM进阶
+tags: 
+  - JVM
 ---
 
 

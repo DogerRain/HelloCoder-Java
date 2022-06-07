@@ -1,6 +1,15 @@
 ---
+title: HTTP请求的方式
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/HTTP%E8%AF%B7%E6%B1%82%E7%9A%84%E6%96%B9%E5%BC%8F
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - 计算机网络
+tags: 
+  - HTTP
+  - 请求的方式
 ---
 写Java的小伙伴，相信都用过以下的HTTP请求方式：
 

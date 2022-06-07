@@ -1,6 +1,15 @@
 ---
+title: 项目的JVM堆内存大小如何设置
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/%E9%A1%B9%E7%9B%AE%E7%9A%84JVM%E5%A0%86%E5%86%85%E5%AD%98%E5%A4%A7%E5%B0%8F%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - JVM进阶
+tags: 
+  - JVM
+  - 项目的
 ---
 堆的最大值和最小值分别是Xmx和Xms指定的。一般在生产环境中，把这两个值设为同样大。使JVM进程在一启动的时候，就获得足够大小的存储空间。
 

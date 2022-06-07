@@ -1,6 +1,15 @@
 ---
+title: Servlet的生命周期
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/Servlet%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+tags: 
+  - Servlet
+  - 生命周期
 ---
 > 原文：https://www.runoob.com/servlet/servlet-life-cycle.html
 

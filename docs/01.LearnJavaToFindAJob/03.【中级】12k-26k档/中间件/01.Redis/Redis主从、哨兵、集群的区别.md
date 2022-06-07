@@ -1,6 +1,18 @@
 ---
+title: Redis主从、哨兵、集群的区别
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E4%B8%BB%E4%BB%8E%E3%80%81%E5%93%A8%E5%85%B5%E3%80%81%E9%9B%86%E7%BE%A4%E7%9A%84%E5%8C%BA%E5%88%AB
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
+  - 主从
+  - 哨兵
+  - 集群的区别
 ---
 ## Redis 主从复制、哨兵和集群三者区别
 

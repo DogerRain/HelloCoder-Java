@@ -1,6 +1,15 @@
 ---
+title: 腾讯后端Java岗社招面经
+date: 2022-06-02 11:18:22
 lock: false
-tags: null
+permalink: /pages/%E8%85%BE%E8%AE%AF%E5%90%8E%E7%AB%AFJava%E5%B2%97%E7%A4%BE%E6%8B%9B%E9%9D%A2%E7%BB%8F
+categories: 
+  - LearnJavaToFindAJob
+  - 面经
+tags: 
+  - Java
+  - 腾讯后端
+  - 岗社招面经
 ---
 作者：清风
 链接：https://www.nowcoder.com/discuss/448852?from=zhnkw

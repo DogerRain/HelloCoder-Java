@@ -1,12 +1,21 @@
 ---
+title: MySQL如何行转列？
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/MySQL%E5%A6%82%E4%BD%95%E8%A1%8C%E8%BD%AC%E5%88%97%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - MySQL
+tags: 
+  - MySQL
+  - 如何行转列
 ---
 MySQL不像Oracle有行转列的函数，但是可以通过一些语法获取。
 
 先来个例子
 
-```mysql
+```sql
 -- 创建表  学生表
 CREATE TABLE `student` (
     `stuid` VARCHAR(16) NOT NULL COMMENT '学号',
@@ -127,7 +136,7 @@ select   s.stuid 编号 , GROUP_CONCAT(courseno) 课程号 , GROUP_CONCAT(s.scor
 
 这是正常的连表查询
 
-```mysql
+```sql
 +------+------+------------------+------+
 | ID   | 姓名 | 课程名           | 成绩 |
 +------+------+------------------+------+
@@ -163,7 +172,7 @@ select   s.stuid 编号 , GROUP_CONCAT(courseno) 课程号 , GROUP_CONCAT(s.scor
 
 图二：
 
-```mysql
+```sql
 +------+------+----------+------------+----------+------------------+----------+--------------+--------------+--------+------+
 | 编号 | 姓名 | 大学语文 | 新视野英语 | 离散数学 | 概率论与数理统计 | 线性代数 | 高等数学(一) | 高等数学(二) | 平均分 | 总分 |
 +------+------+----------+------------+----------+------------------+----------+--------------+--------------+--------+------+
@@ -182,7 +191,7 @@ select   s.stuid 编号 , GROUP_CONCAT(courseno) 课程号 , GROUP_CONCAT(s.scor
 
 如果不使用聚合函数（max、sum这些）：
 
-```mysql
+```sql
 select st.stuid 编号, st.stunm 姓名 ,
 (case c.coursenm when '大学语文' then s.scores else 0 end ) '大学语文',
 (case c.coursenm when '新视野英语' then IFNULL(s.scores,0)else 0 end) '新视野英语',
@@ -198,7 +207,7 @@ LEFT JOIN courses c on c.courseno = s.courseno;
 
 它的结果是这样的：
 
-```mysql
+```sql
 +------+------+----------+------------+----------+------------------+----------+--------------+--------------+
 | 编号 | 姓名 | 大学语文 | 新视野英语 | 离散数学 | 概率论与数理统计 | 线性代数 | 高等数学(一) | 高等数学(二) |
 +------+------+----------+------------+----------+------------------+----------+--------------+--------------+
@@ -242,7 +251,7 @@ LEFT JOIN courses c on c.courseno = s.courseno;
 
 图三：
 
-```mysql
+```sql
 +------+--------------------------+----------------+
 | 编号 | 课程号                   | 成绩           |
 +------+--------------------------+----------------+

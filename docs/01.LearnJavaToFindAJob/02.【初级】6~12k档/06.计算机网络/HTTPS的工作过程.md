@@ -1,6 +1,15 @@
 ---
+title: HTTPS的工作过程
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/HTTPS%E7%9A%84%E5%B7%A5%E4%BD%9C%E8%BF%87%E7%A8%8B
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - 计算机网络
+tags: 
+  - HTTPS
+  - 工作过程
 ---
 > 参考自一个小故事：http://www.youdzone.com/signature.html
 

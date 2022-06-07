@@ -1,9 +1,19 @@
 ---
+title: valueOf、(String)强转有什么区别？
+date: 2022-06-02 11:18:17
 lock: false
-tags: null
+permalink: /pages/valueOf%E3%80%81(String)%E5%BC%BA%E8%BD%AC%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB%EF%BC%9F
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - Java进阶
+tags: 
+  - 
+  - StringValueOf
+  - 强转有区别
 ---
 先说结论：
-
+edis分布式事务锁的原理.md
 **1、toString()**
 
 **可能会抛空指针异常**

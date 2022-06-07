@@ -1,6 +1,15 @@
 ---
+title: Hibernate面试题
+date: 2022-06-02 11:18:18
 lock: false
-tags: null
+permalink: /pages/Hibernate%E9%9D%A2%E8%AF%95%E9%A2%98
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+tags: 
+  - Hibernate
+  - 面试题
 ---
 ### 1、Hibernate的理解
 

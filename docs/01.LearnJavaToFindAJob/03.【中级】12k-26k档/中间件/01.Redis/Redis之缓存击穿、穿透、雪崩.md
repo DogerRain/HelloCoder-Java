@@ -1,6 +1,18 @@
 ---
+title: Redis之缓存击穿、穿透、雪崩
+date: 2022-06-02 11:18:19
 lock: false
-tags: null
+permalink: /pages/Redis%E4%B9%8B%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%E3%80%81%E7%A9%BF%E9%80%8F%E3%80%81%E9%9B%AA%E5%B4%A9
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - 中间件
+  - Redis
+tags: 
+  - Redis
+  - 之缓存击穿
+  - 穿透
+  - 雪崩
 ---
 > 数据获取的流程，一般是前端请求，后台先从缓存中取数据，缓存取不到则去数据库中取，数据库取到了则返回给前端，然后更新缓存，如果数据库取不到则返回空数据给前端
 

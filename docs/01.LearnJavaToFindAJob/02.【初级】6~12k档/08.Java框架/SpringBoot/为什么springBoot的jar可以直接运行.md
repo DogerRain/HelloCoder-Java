@@ -1,6 +1,16 @@
 ---
+title: 为什么springBoot的jar可以直接运行
+date: 2022-06-02 11:18:21
 lock: false
-tags: null
+permalink: /pages/%E4%B8%BA%E4%BB%80%E4%B9%88springBoot%E7%9A%84jar%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%BF%90%E8%A1%8C
+categories: 
+  - LearnJavaToFindAJob
+  - 【初级】6~12k档
+  - Java框架
+  - SpringBoot
+tags: 
+  - springBoot
+  - jar
 ---
 SpringBoot提供了一个插件spring-boot-maven-plugin用于把程序打包成一个可执行的jar包。
 

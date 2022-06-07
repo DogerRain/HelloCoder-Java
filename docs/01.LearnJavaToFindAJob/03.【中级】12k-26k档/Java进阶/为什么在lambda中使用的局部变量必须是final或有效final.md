@@ -1,6 +1,18 @@
 ---
+title: 为什么在lambda中使用的局部变量必须是final或有效final
+date: 2022-06-02 11:18:17
 lock: false
-tags: null
+permalink: /pages/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9C%A8lambda%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%9A%84%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E5%BF%85%E9%A1%BB%E6%98%AFfinal%E6%88%96%E6%9C%89%E6%95%88final
+categories: 
+  - LearnJavaToFindAJob
+  - 【中级】12k-26k档
+  - Java进阶
+tags: 
+  - lambda
+  - final
+  - 为在
+  - 中使用
+  - 或有效
 ---
 **Q：为什么在lambda中使用的局部变量必须是final或有效final?**
 

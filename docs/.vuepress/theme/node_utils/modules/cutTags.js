@@ -3,8 +3,9 @@ const log = console.log;
 // let str = "Java的就业和发展";
 // let str = "8.Callable和Runnable的区别";
 // let str = "toString()、String.valueOf、(String)强转有什么区别？";
+let str = "SpringMVC中Controller是线程安全的吗？";
 //
-// let tags = getTags(str);
+let tags = getTags(str);
 
 // if (getPropertyCount(tags) === 0) {
 //     log("tags为空")
@@ -114,6 +115,8 @@ function getTags(fileName) {
              }
         }
     }
+
+    log("最终分词:",from)
 
     return from;
 
