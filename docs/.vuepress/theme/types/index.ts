@@ -17,6 +17,8 @@ export interface VdoingThemeConfig extends NoSidebar4DefaultThemeConfig {
    * 是否打开标签功能. Enable tag
    * @default true
    */
+
+
   tag?: boolean;
 
   /**

@@ -23,7 +23,7 @@ module.exports = {
 
     head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
         ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
-        ['meta', {name: 'keywords', content: 'java面试,java面试题目,java学习,面试指南,Java小白求职之路'}],
+        ['meta', {name: 'keywords', content: 'java面试,java面试题目,java核心知识,面试指南,Java小白求职之路'}],
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
 
         // ['meta', {name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87'}], // 广告相关，你可以去掉
@@ -159,7 +159,7 @@ module.exports = {
             ]
         },
         footer: { // 页脚信息
-            createYear: 2022, // 博客创建年份
+            createYear: 2020, // 博客创建年份
             copyrightInfo: '醋酸菌HaC', // 博客版权信息，支持a标签
             // copyrightInfo:
             //     '<p>友情链接：<a href="https://uniadmin.jiangruyi.com" target="_blank">UniAdmin</a> | <a href="https://jiangruyi.com" target="_blank">江如意的博客</a></p>' +

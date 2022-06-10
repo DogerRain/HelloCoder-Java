@@ -11,15 +11,15 @@ features: # 可选的
   - title: 《Java小白求职》
     details: 作者本人在Java面试中遇到的题目
     link: /pages/shiyongruanjian/ # 可选
-    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png # 可选
+#    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png # 可选
   - title: 《小白学Java》
     details: Java学到什么程度才能找到一份工作
     link:  /pages/bizhi/
-    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+#    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
   - title: 资源 & 工具
     details: Java电子书、常用开发工具、免费学习视频
     link: /pages/b52e5c/
-    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+#    imgUrl: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
  
 
 
@@ -35,15 +35,48 @@ postList: none
 
 <br/>
 
+## 关于本项目
+
+本项目包含以下几个模块：
+
+### 1️⃣《Java小白求职之路》
+
+目标人群为 即将找工作 + 初级开发 的程序员。
+
+收集了醋酸菌本人面试Java岗位过程中遇到的题目。包含三个档位薪资的题目：
+
+- 初级 8~10k
+- 中级 12~26k
+- 高级（因作者未达到，待完善）
+
+### 2️⃣《小白学Java》
+
+目标人群为 在校大学生 + 新手入门Java 的程序员。
+
+提供了找到一份Java工作需要掌握哪些技能的学习图谱，也是醋酸菌本人自学Java的过程。
+
+### 3️⃣脚手架工具
+
+收集了一些 本人常用的开发工具，例如：
+
+- 
+
+### 4️⃣免费的计算机资源
+
+收集一些开源的计算机资源，如
+
+- 电子书（大部分为高清的可编辑PDF），如
+- B站一些高质量学习视频
+- 免费的开源网站
+
 
 
  ## 💎 公众号
 
 公众号<Badge text="HelloCoder"/>是本人对各种有趣的技术进行归纳和分享，第一时间推送，包含：
-- 一些有趣的github开源项目
+- 猎奇一些有趣的github项目
 - 高效率的开发工具
-
-
+- Java核心的技术（较少）
 
 ::: center
 <img src="/img/site/HelloCoder.png"  style="width:190px;" />
@@ -57,91 +90,12 @@ postList: none
 
 如果你使用过程中，
 
-- 有任何问题和想法
+- 有任何技术问题和想法
 
-- 想要第一时间
-
-- 需要学习资源
-
-都可以和我联系
+- 需要咨询一些关于职业的困惑
 
 
-
-
-<!-- Happy new year -->
-<br/><br/>
-
-<!-- 
-
-<div class="container-happy">
-  <div>
-    <span>Happy</span>
-    <span>Wish</span>
-  </div>
-    <div>
-    <span>New</span>
-    <span>You</span>
-  </div>
-  <footer>
-      <div>
-    <span>Year</span>
-    <span>Luck</span>
-  </div>
-  <div>
-    <span>2022</span>
-    <span>Tomorrow</span>
-  </div>
-  </footer>
-</div>
-
-<style>
-.container-happy {
-  font-size: 18px;
-  font-family: Times New Roman;
-  perspective: 35rem;
-  width: 100%;
-  margin: 0 auto;
-  color: tomato;
-  opacity: 0.8;
-}
-.container-happy footer {
-  perspective: 35rem;
-  transform: translateY(-1.4rem);
-}
-.container-happy div {
-  font-size: 5rem;
-  height: 6rem;
-  overflow: hidden;
-  text-transform: uppercase;
-
-}
-
-.container-happy div>span {
-  display: block;
-  height: 6rem;
-  padding: 0 1rem;
-  font-weight: bold;
-  letter-spacing: .2rem;
-  text-align: center;
-  transition: .3s;
-}
-
-.container-happy:hover div>span {
-  transform: translateY(-100%);
-}
-
-.container-happy div:nth-child(odd) {
-  background-color: #EBFCFF;
-  transform: rotateX(30deg);
-}
-
-.container-happy div:nth-child(even) {
-  background-color: #E6F4F1;
-  transform: translateY(-.6rem) rotateX(-30deg);
-}
-</style> 
-
--->
+都可以和我联系。
 
 <!-- AD -->
 
@@ -152,9 +106,10 @@ postList: none
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;}
 </style>
-
 <span id="busuanzi_container_site_pv">
 👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
 </span>| 🐒本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
+
 <!-- 评论 -->
 <Vssue :title="$title" />
+

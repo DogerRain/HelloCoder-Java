@@ -104,8 +104,8 @@ JDK1.7的 ConcurrentHashMap 底层采用 分段的数组+链表 实现，JDK1.8 
 ### 6、Set和List的区别
 
 1. Set 接口实例存储的是**无序的，不重复的数据**。List 接口实例存储的是**有序的，可以重复的元素**。都可以存储null值，但是set不能重复所以最多只能有一个空元素。
-2. Set检索效率低下，删除和插入效率高，插入和删除不会引起元素位置改变 <实现类有HashSet,TreeSet>。
-3. List和数组类似，可以动态增长，根据实际存储的数据的长度自动增长List的长度。查找元素效率高，插入删除效率低，因为会引起其他元素位置改变 ，实现类有ArrayList,LinkedList,Vector。
+2. Set检索效率低下，删除和插入效率高，插入和删除不会引起元素位置改变 ，**实现类有:HashSet，TreeSet**。
+3. List和数组类似，可以动态增长，根据实际存储的数据的长度自动增长List的长度。查找元素效率高，插入删除效率低，因为会引起其他元素位置改变 ，**实现类有 ArrayList，LinkedList，Vector**。
 
 
 
@@ -137,9 +137,9 @@ Collections是一个集合的工具类，提供了排序、查找等操作集合
 
 ### 10、 Collection框架中实现比较要怎么做？
 
-第一种，实体类实现Comparable<T>接口，并实现 compareTo(T t) 方法，我们称为内部比较器。
+第一种，实体类实现`Comparable<T>`接口，并实现 `compareTo(T t)` 方法，我们称为内部比较器。
 
-第二种，创建一个外部比较器，这个外部比较器要实现Comparator接口的 compare(T t1, T t2)方法。
+第二种，创建一个外部比较器，这个外部比较器要实现Comparator接口的 `compare(T t1, T t2)`方法。
 
 
 

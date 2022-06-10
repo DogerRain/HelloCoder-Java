@@ -269,7 +269,7 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
             // log("当前目录：", filename)
 
 
-            if (filename === 'picture') {
+            if (filename === 'picture' || filename==='.git' || filename==='git') {
                 return;
             }
 
