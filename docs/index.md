@@ -45,9 +45,10 @@ postList: none
 
 收集了醋酸菌本人面试Java岗位过程中遇到的题目。包含三个档位薪资的题目：
 
-- 初级 8~10k
-- 中级 12~26k
+- 初级 6~10k
+- 中级 12~20k
 - 高级（因作者未达到，待完善）
+
 
 ### 2️⃣《小白学Java》
 
@@ -59,19 +60,20 @@ postList: none
 
 收集了一些 本人常用的开发工具，例如：
 
-- 
+- IDEA的插件
+- 客户端工具
 
 ### 4️⃣免费的计算机资源
 
 收集一些开源的计算机资源，如
 
-- 电子书（大部分为高清的可编辑PDF），如
+- 电子书（大部分为高清PDF技术书籍）
 - B站一些高质量学习视频
 - 免费的开源网站
 
 
 
- ## 💎 公众号
+ ## ♻ 公众号
 
 公众号<Badge text="HelloCoder"/>是本人对各种有趣的技术进行归纳和分享，第一时间推送，包含：
 - 猎奇一些有趣的github项目
@@ -79,23 +81,16 @@ postList: none
 - Java核心的技术（较少）
 
 ::: center
-<img src="/img/site/HelloCoder.png"  style="width:190px;" />
+ ![](/img/site/wuli_HelloCoder.png)
 :::
 
-
+或者你有技术问题和想法，都可以和我联系。
 
 <br/>
 
-## ⚡ 反馈与交流
-
-如果你使用过程中，
-
-- 有任何技术问题和想法
-
-- 需要咨询一些关于职业的困惑
 
 
-都可以和我联系。
+
 
 <!-- AD -->
 
@@ -106,9 +101,25 @@ postList: none
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;}
 </style>
+
+<!--
 <span id="busuanzi_container_site_pv">
 👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
-</span>| 🐒本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
+</span>
+
+🐒本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
+
+-->
+
+
+
+## 友情链接
+
+- [LearnJavaToFindAJob](https://github.com/DogerRain/LearnJavaToFindAJob)  作者本人求职面试的过程+面试题目
+
+- [awesome-programming-resources](https://github.com/DogerRain/awesome-programming-resources) 一个收集开源计算机资源的合集
+
+
 
 <!-- 评论 -->
 <Vssue :title="$title" />
