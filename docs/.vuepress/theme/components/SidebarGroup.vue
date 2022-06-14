@@ -91,26 +91,26 @@ export default {
     & > .sidebar-group-items
       padding-left 1rem
       & > li > .sidebar-link
-        font-size 0.98em
+        font-size 0.8rem
         border-left none
   &.depth-0
-    font-size 1.0em
+    font-size 1.0rem
 
   &.depth-1
-    font-size 0.9em
+    font-size 0.85rem
   &.depth-2
-    font-size 0.8em
+    font-size 0.8rem
     & > .sidebar-heading
      border-left none
   &.depth-3
-    font-size 0.6em
+    font-size 0.6rem
     & > .sidebar-heading
       border-left none
 .sidebar-heading
   color var(--textColor)
   transition color 0.15s ease
   cursor pointer
-  font-size 1.1em
+  font-size 1.1rem
   font-weight bold
   // text-transform uppercase
   padding 0.35rem 0.5rem 0.35rem 0.5rem
@@ -133,7 +133,6 @@ export default {
       color $accentColor
 .sidebar-group-items
   transition height 0.1s ease-out
-  font-size 0.95em
+  font-size 0.8rem
   overflow hidden
-
 </style>
