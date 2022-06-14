@@ -342,7 +342,7 @@ export default {
     width 100%
     min-height 450px
     margin-top $navbarHeight
-    color $bannerTextColor
+    color var(--textColor)
     position relative
     overflow hidden
     .banner-conent
@@ -390,11 +390,13 @@ export default {
         align-items flex-start
         align-content stretch
         justify-content space-between
+        font-weight bold
       .feature
         flex-grow 1
         flex-basis 30%
         max-width 30%
         text-align center
+        font-weight bold
         a
           // color lighten($bannerTextColor,10%)
           color inherit

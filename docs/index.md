@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
+#heroImage: 
 heroText: HelloCoder
 tagline: 
 #actionText: 开始使用 →

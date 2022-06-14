@@ -12,10 +12,10 @@ module.exports = {
         {text: '脚手架工具', link: "/kjs/"},
 
         {
-            text: '学习资源', item: [
-                {text: '一些免费计算机资源', link: '/pages/shiyongruanjian/'},
-                {text: '电子书', link: '/pages/pojieruanjian/'},
-                {text: '视频', link: '/pages/yingshiruanjian/'},
+            text: '计算机资源', item: [
+                {text: '一些免费计算机资源', link: '/pages/awesome-programming-resources/'},
+                // {text: '电子书', link: '/pages/pojieruanjian/'},
+                // {text: '视频', link: '/pages/yingshiruanjian/'},
             ]
         },
 
