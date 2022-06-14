@@ -1,0 +1,3 @@
+[submodule "docs/03.计算机资源/awesome-programming-resources"]
+	path = docs/03.计算机资源/awesome-programming-resources
+	url = https://github.com/DogerRain/awesome-programming-resources.git
