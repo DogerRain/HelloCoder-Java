@@ -1,5 +1,5 @@
 ---
-title: 0、HTTP1.1、HTTP2.0的区别
+title: HTTP1.0、HTTP1.1、HTTP2.0的区别
 date: 2022-06-02 11:18:21
 lock: false
 permalink: /pages/0%E3%80%81HTTP1.1%E3%80%81HTTP2.0%E7%9A%84%E5%8C%BA%E5%88%AB

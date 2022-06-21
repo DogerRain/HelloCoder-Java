@@ -39,7 +39,7 @@ postList: none
 
 本项目包含以下几个模块：
 
-### 1️⃣[《Java小白求职之路》](/pages/awesome-programming-resources/)
+### 1️⃣[《Java小白求职之路》](/pages/LearnJavaToFindAJob_README/)
 
 目标人群为 即将找工作 + 初级开发 的程序员。
 

@@ -22,15 +22,18 @@
                  style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 300px; text-align: center; font-size: 13px; background: rgb(255, 255, 255); border-radius: 10px; z-index: 9999; font-family: PingFangSC-Regular, sans-serif;">
             <span id="btw-modal-close-btn"
                   style="position: absolute; top: 5px; right: 15px; line-height: 34px; font-size: 34px; cursor: pointer; opacity: 0.2; z-index: 9999; color: rgb(0, 0, 0); background: none; border: none; outline: none;">×</span>
+
                 <p id="btw-modal-header"
                    style="margin-top: 40px; line-height: 1.8; font-size: 13px;">
+                  （为防止恶意爬虫）
+                  <br>
                     扫码或搜索：<span style="color: #E9405A; font-weight: bold;">HelloCoder</span>
 
                     <br>发送：<span id="fustack-token" class="token"
                                  style="color: #e9415a; font-weight: bold; font-size: 17px; margin-bottom: 45px;">290992</span>
                     <br>即可<span style="color: #e9415a; font-weight: bold;">永久解锁</span>本站全部文章</p>
-                <!--<img src="/images/personal/qrcode.png"-->
-                <!--style="width: 180px; margin-top: 10px; margin-bottom: 30px; border: 8px solid rgb(230, 230, 230);">-->
+                <img src="/img/site/HelloCoder.png"
+                style="width: 180px; margin-top: 10px; margin-bottom: 30px; border: 8px solid rgb(230, 230, 230);">
 
 
                 <div class="input-password">
