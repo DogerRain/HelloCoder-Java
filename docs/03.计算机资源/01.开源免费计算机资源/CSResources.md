@@ -21,6 +21,9 @@ tags:
 
 随着时间的推移，知识点、链接难免有出入和错误，欢迎各位提[Issues](https://github.com/DogerRain/awesome-programming-resources/issues)
 
+或者评论区留言。
+
+> 本文也会同步到 https://github.com/DogerRain/awesome-programming-resources
 
 
 ## ✨前后端学习路线

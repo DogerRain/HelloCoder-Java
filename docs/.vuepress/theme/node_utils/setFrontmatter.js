@@ -53,6 +53,8 @@ function setFrontmatter(sourceDir, themeConfig) {
       categories.forEach(item => {
         cateLabelStr += os.EOL + '  - ' + item;
 
+
+        //定义自动 lock 的目录
         if (item==='Java线程'){
           lock = true
         }
