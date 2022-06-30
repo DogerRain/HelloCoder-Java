@@ -108,7 +108,11 @@ personList.stream().forEach(x-> System.out.println(x.getName()));
 三上悠亚
 ```
 
-
+> 注意：
+>
+> foreach不能使用break和continue这两个关键字，通过查资料得知原来foreach和普通的for循环是不同的，它不是普通的遍历，要想实现continue的效果，可以直接使用return即可；
+>
+> 但是如何实现break的效果呢，然而foreach是无法实现的，只要你使用它，就一定会遍历完的，除非你可以把它放进一个try中，通过抛出异常进行终止它。
 
 ### 3.2、过滤（filter）
 

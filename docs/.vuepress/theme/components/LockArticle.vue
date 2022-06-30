@@ -25,23 +25,27 @@
 
                 <p id="btw-modal-header"
                    style="margin-top: 40px; line-height: 1.8; font-size: 13px;">
-                  （为防止恶意爬虫）
-                  <br>
+                    （为防止恶意爬虫）
+                    <br>
                     扫码或搜索：<span style="color: #E9405A; font-weight: bold;">HelloCoder</span>
 
                     <br>发送：<span id="fustack-token" class="token"
                                  style="color: #e9415a; font-weight: bold; font-size: 17px; margin-bottom: 45px;">290992</span>
                     <br>即可<span style="color: #e9415a; font-weight: bold;">永久解锁</span>本站全部文章</p>
                 <img src="/img/site/HelloCoder.png"
-                style="width: 180px; margin-top: 10px; margin-bottom: 30px; border: 8px solid rgb(230, 230, 230);">
+                     style="width: 180px; margin-top: 10px; margin-bottom: 30px; border: 8px solid rgb(230, 230, 230);">
 
 
                 <div class="input-password">
                     <input id="input_password" autocomplete="off" placeholder="请输入密码">
-                    <!--<span  >-->
+                    <span  >
                     <a id="check_password" class="btn-password" target="_self"> 解锁 </a>
-                    <!--</span>-->
-
+                    </span>
+                    <!--<button>-->
+  <!--<span class="button-content">-->
+    <!--<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H24V24H0z" fill="none"></path><path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" fill="currentColor"></path></svg> 解锁-->
+  <!--</span>-->
+                    <!--</button>-->
                 </div>
 
 
@@ -153,7 +157,6 @@
                     $('#read-more-text_remainder').text(text_remainder);
 
 
-
                     // 获取口令
                     this.getToken().then(function (token) {
                         $('#fustack-token').text(token);
@@ -178,8 +181,8 @@
                         clone.css('display', 'block');
 
 
-                        let clone2= $('.right-menu-content').clone();
-                        clone2.css('pointer-events','none');
+                        let clone2 = $('.right-menu-content').clone();
+                        clone2.css('pointer-events', 'none');
 
 
                         // readOj = document.getElementById('message_read_more');
@@ -228,12 +231,12 @@
                 $article.css('height', 'initial');
                 $article.removeClass('lock');
 
-                $('#right-menu-content').css('pointer-events','auto');
+                $('#right-menu-content').css('pointer-events', 'auto');
 
                 $('#read-more-wrap').remove();
 
                 //目录变成可用
-                $article.css('pointer-events','auto');
+                $article.css('pointer-events', 'auto');
 
 
             },
@@ -363,6 +366,7 @@
 
     .input-password {
         margin-bottom: 1rem;
+        display:inline-block;
     }
 
     .input-password input {
@@ -396,6 +400,43 @@
         font-size: 1.1rem;
         text-align: center;
     }
+
+    /* From www.lingdaima.com */
+    button {
+        font-size: 16px;
+        display:inline-block
+        font-family: inherit;
+        font-weight: 700;
+        padding: 4px;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        background: linear-gradient(0deg, rgba(255,213,0,1) 0%, rgba(255,213,0,1) 47%, rgba(0,91,187,1) 47%, rgba(0,91,187,1) 100%);
+    }
+
+    button .button-content {
+        display: flex;
+        align-items: center;
+        background: white;
+        padding: 0.7em 1.5em;
+        padding-left: 1.2em;
+        border-radius: 16px;
+    }
+
+    button svg {
+        width: 22px;
+        height: 22px;
+        margin-right: 6px;
+        color: #ff0000;
+        transition: transform 0.3s;
+    }
+
+    button:hover svg {
+        transform: scale(1.2);
+    }
+
+
 
 </style>
 
