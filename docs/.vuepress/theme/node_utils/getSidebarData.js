@@ -224,6 +224,7 @@ function mapTocToPostSidebar(root) {
  * @param {String} prefix
  */
 
+// 核心方法。， by HaC
 function mapTocToSidebar(root, collapsable, prefix = '') {
     let sidebar = []; // 结构化文章侧边栏数据
     const files = fs.readdirSync(root); // 读取目录（文件和文件夹）,返回数组
@@ -263,7 +264,7 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
             }
         }
 
-
+        //如果是目录
         if (isDir) {
 
             // log("当前目录：", filename)
@@ -273,6 +274,11 @@ function mapTocToSidebar(root, collapsable, prefix = '') {
                 return;
             }
 
+            //定义是否可以折叠的目录
+
+            if(filename==='计算机资源'){
+                collapsable = false;
+            }
 
             sidebar[order] = {
                 title,
