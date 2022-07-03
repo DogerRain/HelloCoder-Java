@@ -31,7 +31,15 @@ postList: none
 
 <br/>
 
- 
+
+<!--
+<span id="busuanzi_container_site_pv">
+👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
+</span>
+
+🐒本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
+
+-->
 
 <br/>
 
@@ -85,6 +93,7 @@ postList: none
 - 高效率的开发工具
 - Java核心的技术（较少）
 
+
  ![](/img/site/wuli_HelloCoder.png)
 
 或者你有技术问题和想法，都可以和我联系。
@@ -98,7 +107,7 @@ postList: none
 
 
 <!-- AD -->
-
+<!--
 <div class="wwads-cn wwads-horizontal pageB" data-id="136" style="width:100%;max-height:80px;min-height:auto;"></div>
 <style>
   .pageB img{width:80px!important;}
@@ -106,14 +115,10 @@ postList: none
   .pageT .wwads-poweredby{display:none!important;}
   .pageT .wwads-hide{display:none!important;}
 </style>
-<!--
-<span id="busuanzi_container_site_pv">
-👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
-</span>
 
-🐒本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
-
+<div class="pageB" style="width:100%;max-height:80px;min-height:auto;"> 1</div>
 -->
+
 
 <!--
 

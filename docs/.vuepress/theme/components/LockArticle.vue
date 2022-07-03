@@ -401,7 +401,7 @@
         text-align: center;
     }
 
-    /* From www.lingdaima.com */
+   /* !* From www.lingdaima.com *!
     button {
         font-size: 16px;
         display:inline-block
@@ -434,7 +434,7 @@
 
     button:hover svg {
         transform: scale(1.2);
-    }
+    }*/
 
 
 

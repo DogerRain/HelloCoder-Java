@@ -168,7 +168,7 @@ module.exports = {
             //     '<a href="http://beian.miit.gov.cn/" target="_blank">京ICP备2020044519号-4</a>', // 博客版权信息，支持a标签
         },
 
-        // htmlModules,
+        htmlModules,
     },
 
     // 插件
@@ -253,9 +253,10 @@ module.exports = {
             platform: 'github',
             // 其他的 Vssue 配置
             owner: 'DogerRain',
-            repo: 'image',
-            clientId: 'e97ea54d9f7856761ef0',
-            clientSecret: 'eb97fdda179363e1dffa840eac4f80cebf511f76',
+            repo: 'HelloCoder',
+            //https://github.com/settings/apps/hellocoder-blog
+            clientId: 'Iv1.bb247009ededf850',
+            clientSecret: '891af49b266ab4b1c105e50db2f1fe26b4db1dd0',
 
             locale: 'zh'
         },
