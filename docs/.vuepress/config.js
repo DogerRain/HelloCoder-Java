@@ -256,7 +256,6 @@ module.exports = {
             repo: 'HelloCoder',
             // https://github.com/settings/applications/1942555
             clientId: '43a73d473914ee5ce72c',
-            //https://github.com/settings/apps/hellocoder-blog
             clientSecret: 'a50dceb37b9f2d636cd446b7674261e9da3141a3',
 
             locale: 'zh'
