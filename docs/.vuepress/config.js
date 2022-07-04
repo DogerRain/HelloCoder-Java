@@ -254,8 +254,9 @@ module.exports = {
             // 其他的 Vssue 配置
             owner: 'DogerRain',
             repo: 'HelloCoder',
+            // https://github.com/settings/applications/1942555
+            clientId: '43a73d473914ee5ce72c',
             //https://github.com/settings/apps/hellocoder-blog
-            clientId: 'Iv1.bb247009ededf850',
             clientSecret: '891af49b266ab4b1c105e50db2f1fe26b4db1dd0',
 
             locale: 'zh'

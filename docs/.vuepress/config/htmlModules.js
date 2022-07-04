@@ -47,9 +47,9 @@
 
 
 module.exports = {
-  homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+ // homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
   sidebarT: '',
-  sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+  // sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
   pageT: `<div style="width:100%;color:#fff;background: #eee;">  <a href="https://www.aliyun.com/activity/new?userCode=4lol8et7"
                    target="_blank" rel="external nofollow">
                     <img src="/img/site/aliyun_sale1000-60.png" alt="阿里云首购8折"
